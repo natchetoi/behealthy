@@ -218,6 +218,7 @@
  *   );
  * @endcode
  */
+$databases = array();
 
 /**
  * Location of the site configuration files.
@@ -714,9 +715,10 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *
  * Keep this code block at the end of this file to take full effect.
  */
-# if (file_exists(__DIR__ . '/settings.local.php')) {
-#   include __DIR__ . '/settings.local.php';
-# }
+ if (file_exists(__DIR__ . '/settings.local.php')) {
+   include __DIR__ . '/settings.local.php';
+ }
+
 $databases['default']['default'] = array (
   'database' => 'd8_bh',
   'username' => 'root',
@@ -728,4 +730,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_87J7O3ntXtd1jrRqFPpnpOs-G0bwbId9-gXhglAL1OMjWqhdq1t6wlXFXCDUmfax8B35JbesNw/sync';
+$config_directories['sync'] = 'sites/default/config_87J7O3ntXtd1jrRqFPpnpOs-G0bwbId9-gXhglAL1OMjWqhdq1t6wlXFXCDUmfax8B35JbesNw/sync';
