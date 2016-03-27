@@ -5,3 +5,8 @@ description: Settings for the site be healthy
 
 core: '8.x'
 project: 'Be healthy'
+
+dependencies:
+- node
+- block
+hidden: false

@@ -1,0 +1,6 @@
+foobar:
+  pattern: 'admin/foobar' // В этом месте мы передаем шаблон пути, по которому будет отрабатывать контроллер.
+  defaults:
+    _content: '\Drupal\foobar\Controller\FoobarController::foobarPage' // Информируем Symfony о пространстве имен, где следует искать наш контроллер и методе(функции), который вернет нам нужные данные.
+  requirements:
+    _permission: 'access administration pages'

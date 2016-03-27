@@ -1,0 +1,22 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Nikolai_Tatianenko
+ * Date: 3/25/2016
+ * Time: 12:28 AM
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function foobar_menu() {
+  // Путь, указанный здесь, должен полностью соответствовать тому пути, что мы указывали в foobar.routing.yml.
+  $items['admin/foobar'] = array(
+    'title' => 'Foobar',
+    'description' => 'This is the demo foobar page.',
+    // Название маршрута из foobar.routing.yml.
+    'route_name' => 'foobar',
+  );
+
+  return $items;
+}
