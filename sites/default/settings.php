@@ -719,15 +719,5 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
    include __DIR__ . '/settings.local.php';
  }
 
-$databases['default']['default'] = array (
-  'database' => 'd8_bh',
-  'username' => 'root',
-  'password' => '',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/config_87J7O3ntXtd1jrRqFPpnpOs-G0bwbId9-gXhglAL1OMjWqhdq1t6wlXFXCDUmfax8B35JbesNw/sync';
+$config_directories[CONFIG_SYNC_DIRECTORY] = 'sites/default/config_87J7O3ntXtd1jrRqFPpnpOs-G0bwbId9-gXhglAL1OMjWqhdq1t6wlXFXCDUmfax8B35JbesNw/sync';
