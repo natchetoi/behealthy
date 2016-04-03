@@ -1,0 +1,22 @@
+uuid: 06811b4c-1081-4739-991c-28054248d4ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ads
+id: node.ads.status
+field_name: status
+entity_type: node
+bundle: ads
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

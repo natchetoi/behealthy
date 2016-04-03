@@ -1,0 +1,16 @@
+uuid: 84d0ea70-513c-414c-8838-56dad8000b8c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.forum
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: node.forum
+target_entity_type_id: node
+target_bundle: forum
+default_langcode: site_default
+language_alterable: false
