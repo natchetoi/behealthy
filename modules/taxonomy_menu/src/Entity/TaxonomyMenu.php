@@ -24,7 +24,7 @@ use Drupal\taxonomy_menu\TaxonomyMenuInterface;
  *     "form" = {
  *       "add" = "Drupal\taxonomy_menu\Form\TaxonomyMenuForm",
  *       "edit" = "Drupal\taxonomy_menu\Form\TaxonomyMenuForm",
- *       "delete" = "Drupal\taxonomy_menu\Form\TaxonomyMenuDeleteForm"
+ *       "delete" = "Drupal\Core\Entity\EntityDeleteForm"
  *     }
  *   },
  *   config_prefix = "taxonomy_menu",
@@ -96,6 +96,8 @@ class TaxonomyMenu extends ConfigEntityBase implements TaxonomyMenuInterface {
         $this->getMenuLinkManager()->removeDefinition($link_key, FALSE);
       }
     }
+    $this->addDependency('config', 'system.menu.' . $this->getMenu());
+    $this->addDependency('config', 'taxonomy.vocabulary.' . $this->getVocabulary());
   }
 
   /**
@@ -139,6 +141,7 @@ class TaxonomyMenu extends ConfigEntityBase implements TaxonomyMenuInterface {
         $term = Term::load($term->tid);
       }
       $mlid = $this->buildMenuPluginId($term, $include_base_plugin_id);
+
       $links[$mlid] = $this->buildMenuDefinition($term, $base_plugin_definition);
     }
 
@@ -153,13 +156,9 @@ class TaxonomyMenu extends ConfigEntityBase implements TaxonomyMenuInterface {
   }
 
   /**
-   * Generates a menu link id for the taxonomy term.
-   *
-   * @param \Drupal\taxonomy\TermInterface $term
-   *
-   * @return string
+   * {@inheritdoc}
    */
-  protected function buildMenuPluginId(TermInterface $term, $include_base_plugin_id = TRUE) {
+  public function buildMenuPluginId(TermInterface $term, $include_base_plugin_id = TRUE) {
     $plugin_id = '';
     if ($include_base_plugin_id) {
       $plugin_id .= 'taxonomy_menu.menu_link:';
@@ -194,6 +193,11 @@ class TaxonomyMenu extends ConfigEntityBase implements TaxonomyMenuInterface {
 
     if (is_array($parents) && count($parents) && !is_null($parents[0]) && $parents[0] != '0') {
       $menu_parent_id = $this->buildMenuPluginId($parents[0]);
+    }
+
+    // Please note: if menu_parent_id is NULL, it will not update the hierarchy properly.
+    if (empty($menu_parent_id)) {
+      $menu_parent_id = '0';
     }
 
     // TODO: Consider implementing a forced weight based on taxonomy tree.

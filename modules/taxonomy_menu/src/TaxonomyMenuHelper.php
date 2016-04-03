@@ -60,6 +60,7 @@ class TaxonomyMenuHelper {
           }
         }
         if ($this->manager->hasDefinition($plugin_id)) {
+
           $this->manager->updateDefinition($plugin_id, $plugin_def);
         }
         else {
@@ -75,10 +76,15 @@ class TaxonomyMenuHelper {
    * @param \Drupal\taxonomy\TermInterface $term
    */
   public function updateTaxonomyMenuEntries(TermInterface $term, $rebuild_all = TRUE) {
+
     // Load relevant taxonomy menus.
     $tax_menus = $this->getTermMenusByVocabulary($term->getVocabularyId());
+    /** @var $menu \Drupal\taxonomy_menu\TaxonomyMenuInterface */
     foreach ($tax_menus as $menu) {
-      foreach ($menu->getLinks([], TRUE) as $plugin_id => $plugin_def) {
+
+      $links = $menu->getLinks([], TRUE);
+
+      foreach ($links as $plugin_id => $plugin_def) {
         if (!$rebuild_all) {
           $plugin_id_explode = explode('.', $plugin_id);
           $term_id = array_pop($plugin_id_explode);
@@ -86,6 +92,7 @@ class TaxonomyMenuHelper {
             continue;
           }
         }
+
         $this->manager->updateDefinition($plugin_id, $plugin_def, FALSE);
       }
     }
@@ -99,16 +106,17 @@ class TaxonomyMenuHelper {
   public function removeTaxonomyMenuEntries(TermInterface $term, $rebuild_all = TRUE) {
     // Load relevant taxonomy menus.
     $tax_menus = $this->getTermMenusByVocabulary($term->getVocabularyId());
+    /** @var $menu \Drupal\taxonomy_menu\TaxonomyMenuInterface */
     foreach ($tax_menus as $menu) {
-      foreach (array_keys($menu->getLinks([], TRUE)) as $plugin_id) {
-        if (!$rebuild_all) {
-          $plugin_id_parts = explode('.', $plugin_id);
-          $term_id = array_pop($plugin_id_parts);
-          if ($term->id() != $term_id) {
-            continue;
-          }
+      // Remove all links.
+      if ($rebuild_all) {
+        $links = array_keys($menu->getLinks([], TRUE));
+        foreach ($links as $plugin_id) {
+          $this->manager->removeDefinition($plugin_id, FALSE);
         }
-        $this->manager->removeDefinition($plugin_id, FALSE);
+      // Remove specific term link. Note - this link does not exist in the taxonomy menu and is not in $links.
+      } else if (!empty($term)) {
+        $this->manager->removeDefinition($menu->buildMenuPluginId($term), FALSE);
       }
     }
   }
