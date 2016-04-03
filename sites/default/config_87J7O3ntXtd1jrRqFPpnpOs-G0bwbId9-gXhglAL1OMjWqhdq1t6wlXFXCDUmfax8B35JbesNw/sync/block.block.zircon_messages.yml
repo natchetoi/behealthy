@@ -9,7 +9,7 @@ dependencies:
 id: zircon_messages
 theme: zircon
 region: '-1'
-weight: -9
+weight: -11
 provider: null
 plugin: system_messages_block
 settings:

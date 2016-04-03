@@ -11,7 +11,7 @@ dependencies:
 id: zircon_footer
 theme: zircon
 region: '-1'
-weight: -14
+weight: -16
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

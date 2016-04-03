@@ -9,7 +9,7 @@ dependencies:
 id: tagcloudsterms
 theme: zircon
 region: sidebar_first
-weight: null
+weight: -18
 provider: null
 plugin: tagclouds_block
 settings:

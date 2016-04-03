@@ -9,7 +9,7 @@ dependencies:
 id: zircon_breadcrumbs
 theme: zircon
 region: '-1'
-weight: -15
+weight: -17
 provider: null
 plugin: system_breadcrumb_block
 settings:
