@@ -1,0 +1,14 @@
+uuid: 49679efe-e585-42ee-9341-aa82c401a80d
+langcode: en
+status: true
+dependencies: {  }
+name: ads
+label: ads
+effects:
+  e3b62ce0-f645-48cd-868d-31dd46ae51a1:
+    uuid: e3b62ce0-f645-48cd-868d-31dd46ae51a1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 230
+      height: 230

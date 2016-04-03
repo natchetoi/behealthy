@@ -1,0 +1,26 @@
+uuid: 5c893518-46e6-40fa-a10c-b22e91be5215
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - zircon
+id: userlogin
+theme: zircon
+region: sidebar_first
+weight: -13
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/forum\r\n/forum/*"
+    negate: true
+    context_mapping: {  }

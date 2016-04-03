@@ -1,0 +1,23 @@
+uuid: 5e283761-d2e0-4305-9df2-bdedea7f250e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zircon
+id: zircon_branding
+theme: zircon
+region: header
+weight: -15
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 984c0543-90a9-4c04-b062-9859b6d21382
+langcode: en
+status: true
+dependencies: {  }
+name: Releases
+vid: vypuski
+description: 'Releases of the magazine'
+hierarchy: 0
+weight: 0

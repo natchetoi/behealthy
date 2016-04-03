@@ -1,0 +1,25 @@
+uuid: 126ac03d-6a9d-4ef3-980c-12f185ccc324
+langcode: en
+status: true
+dependencies:
+  module:
+    - tagclouds
+  theme:
+    - zircon
+id: tagcloudsterms
+theme: zircon
+region: sidebar_first
+weight: null
+provider: null
+plugin: tagclouds_block
+settings:
+  id: tagclouds_block
+  label: Tagclouds
+  provider: tagclouds
+  label_display: visible
+  cache:
+    max_age: 0
+    contexts: {  }
+  tags: '0'
+  vocabulary: tags
+visibility: {  }

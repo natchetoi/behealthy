@@ -1,0 +1,14 @@
+uuid: 66aff6bf-ddea-4063-a86b-81d370f4df80
+langcode: en
+status: true
+dependencies: {  }
+name: sidebar
+label: Sidebar
+effects:
+  8ebe3bb5-3b9a-4cf1-a73c-87e9e8a30cce:
+    uuid: 8ebe3bb5-3b9a-4cf1-a73c-87e9e8a30cce
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 60
+      height: 60

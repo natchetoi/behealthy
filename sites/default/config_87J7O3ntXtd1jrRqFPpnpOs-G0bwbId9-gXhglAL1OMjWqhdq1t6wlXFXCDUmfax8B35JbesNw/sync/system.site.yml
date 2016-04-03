@@ -1,0 +1,12 @@
+uuid: 5b193cda-8008-4527-8d83-d2579ff9472e
+name: 'Simple Site'
+mail: nikolas.tatianenko@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

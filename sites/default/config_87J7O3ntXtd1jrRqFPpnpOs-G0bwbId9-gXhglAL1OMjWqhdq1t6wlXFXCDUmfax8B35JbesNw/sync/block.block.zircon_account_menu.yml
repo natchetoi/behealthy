@@ -1,0 +1,24 @@
+uuid: 627c77f3-38a2-4fe8-b9a6-4ac578fef5ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - zircon
+id: zircon_account_menu
+theme: zircon
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 13884c77-c116-4379-aaab-14c643dadc04
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:05ed7461-838f-4261-8463-cff094e4d644'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: newsletters
+theme: zircon
+region: panel_second_4
+weight: -15
+provider: null
+plugin: 'block_content:05ed7461-838f-4261-8463-cff094e4d644'
+settings:
+  id: 'block_content:05ed7461-838f-4261-8463-cff094e4d644'
+  label: Newsletters
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

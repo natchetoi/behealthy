@@ -1,0 +1,16 @@
+uuid: ebfd7d14-4a27-4f8a-a507-7f7805c3fd4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vypuski
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.vypuski
+target_entity_type_id: taxonomy_term
+target_bundle: vypuski
+default_langcode: site_default
+language_alterable: true

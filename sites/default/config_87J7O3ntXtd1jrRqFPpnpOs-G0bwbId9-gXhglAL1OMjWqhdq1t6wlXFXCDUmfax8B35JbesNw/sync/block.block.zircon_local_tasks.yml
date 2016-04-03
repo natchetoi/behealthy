@@ -1,0 +1,20 @@
+uuid: 534617d0-0be9-436d-8f5d-d91603cb4da6
+langcode: en
+status: false
+dependencies:
+  theme:
+    - zircon
+id: zircon_local_tasks
+theme: zircon
+region: '-1'
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

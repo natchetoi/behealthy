@@ -1,0 +1,30 @@
+uuid: 8d7abf9e-bc63-4a2b-a8e2-8e017d40484f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_products
+  module:
+    - system
+    - views
+  theme:
+    - zircon
+id: views_block__our_products_block_1
+theme: zircon
+region: sidebar_second
+weight: -14
+provider: null
+plugin: 'views_block:our_products-block_1'
+settings:
+  id: 'views_block:our_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/articles\r\n/category\r\n/category/*"
+    negate: false
+    context_mapping: {  }

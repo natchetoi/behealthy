@@ -1,0 +1,20 @@
+uuid: 0c45a4f7-5418-4907-94f4-b9d1a300d561
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - zircon
+id: zircon_powered
+theme: zircon
+region: '-1'
+weight: -12
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 5c559ce9-1b47-4653-bb9f-8552bd2149cd
+langcode: en
+status: false
+dependencies:
+  theme:
+    - zircon
+id: zircon_page_title
+theme: zircon
+region: '-1'
+weight: -13
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

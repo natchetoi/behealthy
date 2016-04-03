@@ -1,0 +1,24 @@
+uuid: e42e40ac-802f-4ee1-9b40-9511414dfe65
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - zircon
+id: zircon_main_menu
+theme: zircon
+region: main_menu
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

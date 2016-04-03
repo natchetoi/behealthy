@@ -1,0 +1,10 @@
+uuid: 0f6eff0f-61a1-461c-a08f-679eedb0161d
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Contact Us'
+recipients:
+  - you@yourdomain
+reply: ''
+weight: 0

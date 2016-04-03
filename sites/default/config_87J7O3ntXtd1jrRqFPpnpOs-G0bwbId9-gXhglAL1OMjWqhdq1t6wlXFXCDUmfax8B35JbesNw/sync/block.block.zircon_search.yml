@@ -1,0 +1,20 @@
+uuid: 6b43bade-ebde-4a84-a7e0-ff38a415095e
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - zircon
+id: zircon_search
+theme: zircon
+region: '-1'
+weight: -10
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
