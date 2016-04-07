@@ -110,12 +110,12 @@ $(document).ready(function() {
         slidesToScroll: 3
     });
     var slideIndex = 1;
-    $('.js-add-slide').on('click', function() {
+    $('.libraries-add-slide').on('click', function() {
         slideIndex++;
         $('.add-remove').slickAdd('<div><h3>' + slideIndex + '</h3></div>');
     });
 
-    $('.js-remove-slide').on('click', function() {
+    $('.libraries-remove-slide').on('click', function() {
         $('.add-remove').slickRemove(slideIndex - 1);
         if (slideIndex !== 0){
             slideIndex--;
@@ -128,7 +128,7 @@ $(document).ready(function() {
         slidesToScroll: 4
     });
     var filtered = false;
-    $('.js-filter').on('click', function() {
+    $('.libraries-filter').on('click', function() {
         if (filtered === false) {
             $('.filtering').slickFilter(':even');
             $(this).text('Unfilter Slides');

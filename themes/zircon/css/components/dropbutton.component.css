@@ -4,7 +4,7 @@
  */
 
 .js .dropbutton-wrapper .dropbutton-widget {
-  /* This is required to win over specifity of .js td .dropbutton-widget */
+  /* This is required to win over specifity of .libraries td .dropbutton-widget */
   position: relative;
 }
 .js .dropbutton-widget {

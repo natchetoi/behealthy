@@ -691,7 +691,7 @@ var $JssorUtils$ = window.$JssorUtils$ = new function () {
         var result = new $JssorPoint$();
 
         // technique from:
-        // http://www.quirksmode.org/js/findpos.html
+        // http://www.quirksmode.org/libraries/findpos.html
         // with special check for "fixed" elements.
 
         while (elmt) {
@@ -746,7 +746,7 @@ var $JssorUtils$ = window.$JssorUtils$ = new function () {
         var result = new $JssorPoint$();
 
         // technique from:
-        // http://www.quirksmode.org/js/events_properties.html
+        // http://www.quirksmode.org/libraries/events_properties.html
 
         if (event.type == "DOMMouseScroll" &&
                 IsBrowserFireFox() && browserRuntimeVersion < 3) {

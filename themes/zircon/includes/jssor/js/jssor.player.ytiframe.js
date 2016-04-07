@@ -1,5 +1,5 @@
 ﻿/// <reference path="Jssor.Core.js" />
-/// <reference path="Jssor.Utils.js" />
+/// <reference path="Jssor.Utils.libraries" />
 
 /**
 * Jssor.Player.ytiframe 1.0

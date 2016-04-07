@@ -1,5 +1,5 @@
 ﻿/// <reference path="Jssor.Core.js" />
-/// <reference path="Jssor.Utils.js" />
+/// <reference path="Jssor.Utils.libraries" />
 
 /*
 * Jssor.Slider 16.0
@@ -2226,7 +2226,7 @@ new function () {
             // child element, but the mouse is still inside the parent element.
             // the mouseout event will bubble up to us. this happens in all
             // browsers, so we need to correct for this. technique from:
-            // http://www.quirksmode.org/js/events_mouse.html
+            // http://www.quirksmode.org/libraries/events_mouse.html
             var from = event.target ? event.target : event.srcElement;
             var to = event.relatedTarget ? event.relatedTarget : event.toElement;
 
