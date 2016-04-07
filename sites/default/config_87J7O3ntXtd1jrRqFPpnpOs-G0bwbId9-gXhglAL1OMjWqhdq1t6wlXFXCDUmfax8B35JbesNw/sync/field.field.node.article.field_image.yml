@@ -1,4 +1,4 @@
-uuid: 375ceaac-8e3d-45c3-b6c0-59e0e6c81646
+uuid: 7ef95f55-bfba-4e91-925d-93c054373b0c
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.article
   module:
     - image
+_core:
+  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
 id: node.article.field_image
 field_name: field_image
 entity_type: node
@@ -14,25 +16,25 @@ bundle: article
 label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: field/image
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''
   alt_field: true
-  alt_field_required: false
   title_field: false
+  alt_field_required: true
   title_field_required: false
   default_image:
-    uuid: 36c41489-ed54-4fb0-a213-191c62f99e37
+    uuid: null
     alt: ''
     title: ''
-    width: 600
-    height: 600
+    width: null
+    height: null
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

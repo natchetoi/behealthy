@@ -1,8 +1,0 @@
-uuid: 4e831f3e-2c07-4c6d-a535-a7743f9c9a26
-langcode: en
-status: true
-dependencies: {  }
-id: category
-label: Category
-description: ''
-locked: false

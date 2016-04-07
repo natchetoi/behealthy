@@ -1,20 +1,22 @@
-uuid: 4b1b941d-8586-4718-a666-91fa5c5765d4
+uuid: 2a5a0077-89f9-4f43-a900-cd9e3f0279b3
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
   theme:
     - zircon
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: zircon_messages
 theme: zircon
-region: '-1'
-weight: -11
+region: header
+weight: 0
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Status messages'
+  label: 'Сообщения статуса'
   provider: system
   label_display: '0'
 visibility: {  }

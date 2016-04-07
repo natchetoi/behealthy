@@ -1,4 +1,4 @@
-uuid: 0984385d-af26-4419-a229-4d5612ffcf4b
+uuid: 9cecfd9d-9771-490f-b401-0149482c217f
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - file
     - image
     - node
+_core:
+  default_config_hash: SkXIPKZYiIMMtnBmfnxk58RYfbZ8cHSw5NZPY_JByME
 id: node.field_image
 field_name: field_image
 entity_type: node
@@ -13,7 +15,7 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: ''
+    uuid: null
     alt: ''
     title: ''
     width: null

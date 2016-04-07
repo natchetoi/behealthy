@@ -1,10 +1,12 @@
-uuid: 0f6eff0f-61a1-461c-a08f-679eedb0161d
+uuid: ba9b6933-e900-4cc5-aa00-fe022e422095
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
 id: feedback
-label: 'Contact Us'
+label: 'Website feedback'
 recipients:
-  - you@yourdomain
+  - nikolas.tatianenko@gmail.com
 reply: ''
 weight: 0

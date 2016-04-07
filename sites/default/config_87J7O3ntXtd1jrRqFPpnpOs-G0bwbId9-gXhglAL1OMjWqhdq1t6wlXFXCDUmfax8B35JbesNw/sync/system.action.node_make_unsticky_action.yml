@@ -1,9 +1,11 @@
-uuid: 3fd871c2-ed6d-4713-b938-851497a86f3b
+uuid: b0b59f6a-f706-4c70-9203-3ac3c8638dbf
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
 id: node_make_unsticky_action
 label: 'Make content unsticky'
 type: node

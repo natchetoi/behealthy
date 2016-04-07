@@ -1,6 +1,6 @@
-uuid: 9cbe37e0-404e-4b9e-87f5-7bbf11b579f7
+uuid: 52ff6326-9ed7-4eab-b900-f082a82b0eda
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.footer
@@ -8,15 +8,17 @@ dependencies:
     - system
   theme:
     - zircon
+_core:
+  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: zircon_footer
 theme: zircon
-region: '-1'
-weight: -16
+region: header
+weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  label: 'Меню нижнего колонтитула'
   provider: system
   label_display: '0'
   level: 1

@@ -1,4 +1,4 @@
-uuid: 0e266efc-2649-4c90-877a-c12f65d36062
+uuid: 4adc25ab-dba8-4335-9502-2e5f6700fb71
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - comment
     - node
     - user
+_core:
+  default_config_hash: jmfZ73IDUpneecqVXUK3whGzTcvwLBBll9U3ZTCzndo
 id: comments_recent
 label: 'Recent comments'
 module: views
@@ -34,7 +36,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 3
+          items_per_page: 10
           offset: 0
       style:
         type: html_list

@@ -1,6 +1,6 @@
-uuid: c57d2e1d-47e1-40b6-9efc-0915a420bc1e
+uuid: 768fa28d-e249-413d-bd35-535f1a3d7422
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.tools
@@ -8,15 +8,17 @@ dependencies:
     - system
   theme:
     - zircon
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: zircon_tools
 theme: zircon
-region: '-1'
-weight: -8
+region: sidebar_first
+weight: 0
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Инструменты
   provider: system
   label_display: visible
   level: 1

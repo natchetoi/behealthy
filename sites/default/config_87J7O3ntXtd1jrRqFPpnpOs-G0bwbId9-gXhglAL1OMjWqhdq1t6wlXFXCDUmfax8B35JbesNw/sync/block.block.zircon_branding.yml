@@ -1,4 +1,4 @@
-uuid: 5e283761-d2e0-4305-9df2-bdedea7f250e
+uuid: 358a174b-92bd-4b8d-9d00-d7a2826a98c7
 langcode: en
 status: true
 dependencies:
@@ -6,18 +6,20 @@ dependencies:
     - system
   theme:
     - zircon
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: zircon_branding
 theme: zircon
 region: header
-weight: -15
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Site branding'
+  label: 'Брендинг сайта'
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: false
-  use_site_slogan: false
+  use_site_name: true
+  use_site_slogan: true
 visibility: {  }

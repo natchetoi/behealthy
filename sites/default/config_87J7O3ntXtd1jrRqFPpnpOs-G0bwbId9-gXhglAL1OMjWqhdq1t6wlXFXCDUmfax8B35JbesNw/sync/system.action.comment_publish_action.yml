@@ -1,9 +1,11 @@
-uuid: 9a6e04f7-5e35-4ae1-baa9-b1e9ba8d742c
+uuid: fc5e6242-07ed-4bd1-a800-e50b628604cb
 langcode: en
 status: true
 dependencies:
   module:
     - comment
+_core:
+  default_config_hash: f6w_Pd30AyyDIoMkD4QpPMM2-I8FTEHICchFVOpjiCI
 id: comment_publish_action
 label: 'Publish comment'
 type: comment

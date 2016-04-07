@@ -1,18 +1,20 @@
-uuid: 5c559ce9-1b47-4653-bb9f-8552bd2149cd
+uuid: 65e9f43e-c97d-4bf6-8600-a21ee037b16a
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - zircon
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: zircon_page_title
 theme: zircon
-region: '-1'
-weight: -15
+region: content
+weight: -8
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'Заголовок страницы'
   provider: core
   label_display: '0'
 visibility: {  }
