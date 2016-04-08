@@ -1,12 +1,40 @@
-.block-language{
-
+.block-language {
+    float: left;
+    margin-top: 15px;
 }
 
-.block-language ul{
-
+.block-language ul.links {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
 }
 
-.block-language ul li{
-    display: inline;
-    padding: 0px 10px 0px 0px;
+.block-language ul.links li {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+.block-language ul.links li.is-active{
+    border: 1px solid #ccc;
+    border-radius: 4px 0 4px 4px;
+}
+.block-language ul.links li a {
+    text-indent: -100px;
+    display: inline-block;
+    width: 43px;
+    height: 33px;
+
+    overflow: hidden;
+    background: url('../misc/image/flags.png');
+}
+
+.block-language ul.links li.en a {
+    background-position: -54px 2px;
+}
+
+.block-language ul.links li.ru a {
+    background-position: -105px 2px;
+}
+
+.block-language ul.links li.fr a {
+    background-position: 0px 2px;
 }

@@ -2,4 +2,5 @@
 be_healthy_main:
   version: VERSION
   css:
-    css/be_healthy_main.css: {}
+    component:
+      css/be_healthy_main.css: {}

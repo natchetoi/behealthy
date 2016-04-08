@@ -1,13 +1,13 @@
 <?php
+/**
+ * @file
+ *
+ * be_healthy_main.
+ */
 
+/**
+ * Implements hook_page_attachments().
+ */
 function be_healthy_main_page_attachments(array &$page) {
   $page['#attached']['library'][] = 'be_healthy_main/be_healthy_main';
-}
-
-function be_healthy_main_page_attachments_alter(&$page) {
-  #$page['#attached']['library'][] = 'be_healthy_main/be_healthy_main.main';
-}
-
-function be_healthy_main_preprocess_page(&$variables) {
-  $variables['#attached']['library'][] = 'be_healthy_main/be_healthy_main';
 }
