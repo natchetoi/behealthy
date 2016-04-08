@@ -1,0 +1,5 @@
+name: Be healthy main
+description: Be healthy main
+core: 8.x
+type: module
+dependencies:

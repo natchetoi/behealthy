@@ -1,0 +1,7 @@
+name: Foobar
+description: foobar
+core: 8.x
+type: module
+dependencies:
+  - views
+  - taxonomy
