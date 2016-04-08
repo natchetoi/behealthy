@@ -4,7 +4,7 @@
  */
 
 $databases['default']['default'] = array (
-  'database' => 'd8_bh',
+  'database' => 'behealthy3',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
