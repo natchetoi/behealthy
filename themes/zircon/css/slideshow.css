@@ -1,5 +1,5 @@
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-    background: url(../jssor/img/b05.png) no-repeat;
+    background: url(../includes/jssor/img/b05.png) no-repeat;
     overflow: hidden;
     cursor: pointer;
 }
@@ -24,7 +24,7 @@
     position: absolute;
     cursor: pointer;
     display: block;
-    background: url(../jssor/img/a12.png) no-repeat;
+    background: url(../includes/jssor/img/a12.png) no-repeat;
     overflow: hidden;
 }
 
