@@ -1,5 +1,5 @@
-uuid: 3c9d724c-d351-45dd-9100-a168ffaa7a2f
-langcode: en
+uuid: a8204aa0-bd12-47e6-89c5-75560e2dda96
+langcode: ru
 status: true
 dependencies:
   config:
@@ -7,8 +7,6 @@ dependencies:
     - field.storage.block_content.body
   module:
     - text
-_core:
-  default_config_hash: R__6wc-rMfFMO8d7jcgqnqiA92j8spKhcc5MiqecrMc
 id: block_content.basic.body
 field_name: body
 entity_type: block_content
@@ -16,7 +14,7 @@ bundle: basic
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

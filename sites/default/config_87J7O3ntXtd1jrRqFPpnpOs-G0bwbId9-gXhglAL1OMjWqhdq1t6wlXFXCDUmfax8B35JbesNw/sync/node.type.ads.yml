@@ -1,0 +1,17 @@
+uuid: 41865fcf-56f2-48be-99ef-b4c3a2525512
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Ads
+type: ads
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

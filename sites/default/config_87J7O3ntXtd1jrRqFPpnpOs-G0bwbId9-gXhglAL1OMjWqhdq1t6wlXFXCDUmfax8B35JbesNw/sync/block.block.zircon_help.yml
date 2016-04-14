@@ -1,22 +1,20 @@
-uuid: 0e9db206-9c07-4228-902c-44ae40c488b5
+uuid: bd95b833-4a6d-4c07-a462-2cfe0a78953d
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
   theme:
     - zircon
-_core:
-  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
 id: zircon_help
 theme: zircon
-region: content
-weight: -8
+region: '-1'
+weight: -13
 provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Справка
+  label: Help
   provider: help
   label_display: '0'
 visibility: {  }

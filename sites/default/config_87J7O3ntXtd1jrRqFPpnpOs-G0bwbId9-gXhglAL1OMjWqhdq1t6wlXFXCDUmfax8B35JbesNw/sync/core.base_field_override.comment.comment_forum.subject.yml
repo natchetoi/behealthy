@@ -1,0 +1,18 @@
+uuid: 766e703e-932f-4a38-8c2b-436ddf44b733
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment_forum
+id: comment.comment_forum.subject
+field_name: subject
+entity_type: comment
+bundle: comment_forum
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

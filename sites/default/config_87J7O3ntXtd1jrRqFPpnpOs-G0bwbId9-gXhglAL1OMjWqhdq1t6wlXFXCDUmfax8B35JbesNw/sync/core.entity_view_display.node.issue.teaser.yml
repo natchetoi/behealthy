@@ -1,0 +1,39 @@
+uuid: ac631991-075b-4302-8f05-5b6fbf968952
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.issue.body
+    - field.field.node.issue.field_content
+    - field.field.node.issue.field_data_publikacii
+    - field.field.node.issue.field_dla_pecati
+    - field.field.node.issue.field_issue_id
+    - field.field.node.issue.field_oblozka
+    - field.field.node.issue.field_taxonomy_term
+    - node.type.issue
+  module:
+    - text
+    - user
+id: node.issue.teaser
+targetEntityType: node
+bundle: issue
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_content: true
+  field_data_publikacii: true
+  field_dla_pecati: true
+  field_issue_id: true
+  field_oblozka: true
+  field_taxonomy_term: true
+  langcode: true

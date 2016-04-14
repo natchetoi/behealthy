@@ -1,11 +1,9 @@
-uuid: 348342d7-aa8e-4d07-a356-86f14b17a5ac
-langcode: en
+uuid: e2f7ab1e-1fc0-437a-b4d3-7a18495785ca
+langcode: ru
 status: true
 dependencies:
   config:
     - node.type.page
-_core:
-  default_config_hash: fPUEnm4T5zfZRr3ttDUqq7yCDd2uW3clWD-pvos4tlQ
 id: node.page.promote
 field_name: promote
 entity_type: node

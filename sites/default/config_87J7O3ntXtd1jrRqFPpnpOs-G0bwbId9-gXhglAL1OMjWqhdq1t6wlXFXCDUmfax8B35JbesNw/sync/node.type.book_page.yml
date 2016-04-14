@@ -1,0 +1,17 @@
+uuid: 896c4c4c-a466-4ba5-96a1-323911ef3392
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Book page'
+type: book_page
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

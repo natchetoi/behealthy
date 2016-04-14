@@ -1,0 +1,16 @@
+uuid: 319da409-3c14-4e22-9b02-2f57734a64fb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.issue
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.issue
+target_entity_type_id: node
+target_bundle: issue
+default_langcode: ru
+language_alterable: true

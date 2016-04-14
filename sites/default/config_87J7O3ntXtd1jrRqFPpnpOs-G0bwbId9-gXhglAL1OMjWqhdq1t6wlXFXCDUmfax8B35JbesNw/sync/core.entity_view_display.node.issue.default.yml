@@ -1,0 +1,85 @@
+uuid: 076c68a7-a645-4413-9300-f65b568f28c2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.issue.body
+    - field.field.node.issue.field_content
+    - field.field.node.issue.field_data_publikacii
+    - field.field.node.issue.field_dla_pecati
+    - field.field.node.issue.field_issue_id
+    - field.field.node.issue.field_oblozka
+    - field.field.node.issue.field_taxonomy_term
+    - node.type.issue
+  module:
+    - datetime
+    - file
+    - image
+    - link
+    - text
+    - user
+id: node.issue.default
+targetEntityType: node
+bundle: issue
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_content:
+    weight: 4
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_data_publikacii:
+    weight: 2
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: Y-m
+    third_party_settings: {  }
+    type: datetime_custom
+  field_dla_pecati:
+    weight: 5
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: file_url_plain
+  field_issue_id:
+    weight: 7
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_oblozka:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  langcode:
+    type: language
+    weight: 3
+    label: inline
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_taxonomy_term: true

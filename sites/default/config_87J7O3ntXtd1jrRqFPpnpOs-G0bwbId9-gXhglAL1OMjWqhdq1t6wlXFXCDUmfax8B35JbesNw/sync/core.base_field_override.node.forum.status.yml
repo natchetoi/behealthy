@@ -1,0 +1,22 @@
+uuid: 7c752aaa-d6e5-42ba-945d-939716f02849
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.forum
+id: node.forum.status
+field_name: status
+entity_type: node
+bundle: forum
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

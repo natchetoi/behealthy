@@ -1,9 +1,7 @@
-uuid: 1617204f-62c8-473f-8803-3f166dffa92b
-langcode: en
+uuid: c43bbd45-35e7-4af1-89b1-992436652d43
+langcode: ru
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
 id: basic
 label: 'Basic block'
 revision: 0

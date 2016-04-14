@@ -1,0 +1,18 @@
+uuid: 8e4e7fed-6c06-4744-9d08-8c567de744dc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.issue
+id: node.issue.title
+field_name: title
+entity_type: node
+bundle: issue
+label: Выпуск
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

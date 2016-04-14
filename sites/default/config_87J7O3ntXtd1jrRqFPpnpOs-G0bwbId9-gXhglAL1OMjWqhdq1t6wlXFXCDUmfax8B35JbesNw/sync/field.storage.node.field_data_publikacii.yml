@@ -1,0 +1,20 @@
+uuid: 5cb9b910-c014-40ec-9153-8367e5746999
+langcode: ru
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_data_publikacii
+field_name: field_data_publikacii
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

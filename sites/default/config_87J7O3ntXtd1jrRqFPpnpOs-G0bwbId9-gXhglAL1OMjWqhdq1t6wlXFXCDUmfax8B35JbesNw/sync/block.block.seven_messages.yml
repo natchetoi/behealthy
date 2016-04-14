@@ -1,13 +1,11 @@
-uuid: 462b07ba-cd63-41cb-9200-afc5cee768e6
-langcode: en
+uuid: 106e34ec-7493-4e69-a24e-dc560e83db16
+langcode: ru
 status: true
 dependencies:
   module:
     - system
   theme:
     - seven
-_core:
-  default_config_hash: XJqWwLt1LDCnazcEN6QkJmCLjk4R0__-8s0OO9xeNjg
 id: seven_messages
 theme: seven
 region: highlighted

@@ -1,0 +1,47 @@
+uuid: 4139a958-7cf0-4320-ac0d-fc23f0bbdc91
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.ads
+  module:
+    - language
+    - node
+    - system
+    - views
+  theme:
+    - zircon
+id: views_block__ads_block_1
+theme: zircon
+region: '-1'
+weight: -17
+provider: null
+plugin: 'views_block:ads-block_1'
+settings:
+  id: 'views_block:ads-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/taxonomy/term/*\r\n/taxonomy/*"
+    negate: true
+    context_mapping: {  }
+  language:
+    id: language
+    langcodes:
+      ru: ru
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      issue: issue
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

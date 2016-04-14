@@ -1,0 +1,25 @@
+uuid: 3937ba75-44b6-47b0-8aba-f7d8b918d97c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:44ac3b91-d181-4acc-8f6f-8d89f711a1a2'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: usefullinks
+theme: zircon
+region: panel_second_2
+weight: -14
+provider: null
+plugin: 'block_content:44ac3b91-d181-4acc-8f6f-8d89f711a1a2'
+settings:
+  id: 'block_content:44ac3b91-d181-4acc-8f6f-8d89f711a1a2'
+  label: 'Социальные сети'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

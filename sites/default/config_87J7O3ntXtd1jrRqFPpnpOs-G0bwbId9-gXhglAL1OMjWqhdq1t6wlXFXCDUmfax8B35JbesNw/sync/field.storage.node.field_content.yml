@@ -1,0 +1,19 @@
+uuid: feeddc3e-3087-44f8-b260-96c587896229
+langcode: ru
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_content
+field_name: field_content
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

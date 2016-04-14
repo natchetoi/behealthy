@@ -1,4 +1,4 @@
-uuid: cd1c3710-0883-4122-bf0e-1437ea8f07c3
+uuid: 29092662-274e-4f5e-9f53-4a7e1a677efe
 langcode: en
 status: true
 dependencies:
@@ -6,17 +6,15 @@ dependencies:
     - system
   theme:
     - zircon
-_core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: zircon_content
 theme: zircon
 region: content
-weight: 0
+weight: -15
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Содержимое страницы'
+  label: 'Main page content'
   provider: system
   label_display: '0'
 visibility: {  }

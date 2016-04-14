@@ -1,0 +1,27 @@
+uuid: c1934c23-c823-4a98-8f00-abd82806b28c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_issue_id1
+    - node.type.article
+    - taxonomy.vocabulary.vypuski
+id: node.article.field_issue_id1
+field_name: field_issue_id1
+entity_type: node
+bundle: article
+label: Issue_Id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vypuski: vypuski
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

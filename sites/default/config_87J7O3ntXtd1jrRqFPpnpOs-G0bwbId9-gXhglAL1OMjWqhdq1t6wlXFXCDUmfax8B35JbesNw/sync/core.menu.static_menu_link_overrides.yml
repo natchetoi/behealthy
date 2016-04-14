@@ -5,5 +5,22 @@ definitions:
     parent: ''
     weight: 0
     expanded: false
-_core:
-  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+  standard__front_page:
+    enabled: true
+    weight: -50
+    expanded: false
+    menu_name: main
+    parent: ''
+  entity__taxonomy_term__add_form__tags:
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+    weight: 0
+  entity__taxonomy_term__add_form__categories:
+    enabled: false
+    menu_name: tools
+    parent: ''
+    expanded: false
+    weight: 0
+langcode: ru

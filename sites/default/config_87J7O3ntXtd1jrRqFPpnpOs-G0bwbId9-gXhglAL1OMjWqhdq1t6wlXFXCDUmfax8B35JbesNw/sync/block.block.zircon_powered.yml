@@ -1,22 +1,20 @@
-uuid: 8dd5dbc9-d5dc-4ab5-a309-0910ce437a9a
+uuid: 0c45a4f7-5418-4907-94f4-b9d1a300d561
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
     - zircon
-_core:
-  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: zircon_powered
 theme: zircon
-region: header
-weight: -8
+region: '-1'
+weight: -11
 provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: 'Сделано на Drupal'
+  label: 'Powered by Drupal'
   provider: system
   label_display: '0'
 visibility: {  }

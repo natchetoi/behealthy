@@ -1,0 +1,23 @@
+uuid: 3a283927-e3c1-4137-8601-1fe0a40f248f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_dla_pecati
+field_name: field_dla_pecati
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,4 +1,4 @@
-uuid: 3f5073b3-9396-4dbe-a018-249d05e38615
+uuid: 76a4ba3c-748c-48e1-8b00-df8e5705f292
 langcode: ru
 status: true
 dependencies:
@@ -7,13 +7,11 @@ dependencies:
   module:
     - views
   theme:
-    - null
-_core:
-  default_config_hash: PPjqj02QGC55AtYT3woeMmx8sghkZYikyM923fefxmA
+    - zircon
 id: views_block__tagclouds_views_view_block_1
-theme: null
+theme: zircon
 region: sidebar_first
-weight: -18
+weight: -13
 provider: null
 plugin: 'views_block:tagclouds_views_view-block_1'
 settings:

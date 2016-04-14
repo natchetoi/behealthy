@@ -1,0 +1,25 @@
+uuid: f604b5d8-ddb9-405c-bf5e-241f2a3c0967
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:f4a95e0c-7480-4afc-80ac-32401a16dcba'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: copyright
+theme: zircon
+region: '-1'
+weight: -15
+provider: null
+plugin: 'block_content:f4a95e0c-7480-4afc-80ac-32401a16dcba'
+settings:
+  id: 'block_content:f4a95e0c-7480-4afc-80ac-32401a16dcba'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

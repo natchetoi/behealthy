@@ -1,10 +1,8 @@
-uuid: 985d632c-dbe4-4e4e-bd4e-781dfbad1352
-langcode: en
+uuid: e90122ab-0755-4ea1-902a-fd3396a4f0d1
+langcode: ru
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
-label: 'Main navigation'
-description: 'Site section links'
+label: 'Главное меню'
+description: 'Меню Журнала "Будь здоров"'
 locked: true

@@ -1,5 +1,5 @@
-uuid: 99da9315-157a-46c1-aa00-a40a61e39369
-langcode: en
+uuid: 78b88aa4-8214-4aa4-b655-fbd4393d11df
+langcode: ru
 status: true
 dependencies:
   config:
@@ -9,8 +9,6 @@ dependencies:
   module:
     - text
     - user
-_core:
-  default_config_hash: rN2zrScZAJ9xB16hm_Deb9QJKy6JXnn0PdI2n5Z3KRs
 id: node.page.teaser
 targetEntityType: node
 bundle: page

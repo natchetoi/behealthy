@@ -1,0 +1,22 @@
+uuid: c5a737e5-c1a5-428d-9937-559a9e74dd12
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.issue
+  module:
+    - text
+id: node.issue.body
+field_name: body
+entity_type: node
+bundle: issue
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

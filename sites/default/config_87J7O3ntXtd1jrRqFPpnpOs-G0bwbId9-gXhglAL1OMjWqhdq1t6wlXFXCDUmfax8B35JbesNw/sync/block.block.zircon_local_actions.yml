@@ -1,20 +1,18 @@
-uuid: ad1b0b84-8d6f-4774-9d00-def59e18c09d
+uuid: 6613042a-4013-40b7-848c-04b3dba9ee2b
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - zircon
-_core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: zircon_local_actions
 theme: zircon
-region: content
-weight: -8
+region: '-1'
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Основные действия администратора'
+  label: 'Primary admin actions'
   provider: core
   label_display: '0'
 visibility: {  }

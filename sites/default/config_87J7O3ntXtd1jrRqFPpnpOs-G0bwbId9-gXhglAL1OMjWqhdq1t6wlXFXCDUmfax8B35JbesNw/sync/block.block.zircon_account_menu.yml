@@ -1,4 +1,4 @@
-uuid: 5bbc53fa-f436-433d-b400-c218f35d8ae9
+uuid: 627c77f3-38a2-4fe8-b9a6-4ac578fef5ee
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - zircon
-_core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: zircon_account_menu
 theme: zircon
 region: secondary_menu
@@ -18,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'Меню учётной записи пользователя'
+  label: 'User account menu'
   provider: system
   label_display: '0'
   level: 1

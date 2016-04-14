@@ -1,22 +1,20 @@
-uuid: 66f86506-60ad-4194-8000-c0354d324d8d
+uuid: 25956566-88d9-4398-8947-f1942d82aa80
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
     - zircon
-_core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: zircon_breadcrumbs
 theme: zircon
-region: breadcrumb
-weight: 0
+region: '-1'
+weight: -16
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: 'Строка навигации'
+  label: Breadcrumbs
   provider: system
   label_display: '0'
 visibility: {  }

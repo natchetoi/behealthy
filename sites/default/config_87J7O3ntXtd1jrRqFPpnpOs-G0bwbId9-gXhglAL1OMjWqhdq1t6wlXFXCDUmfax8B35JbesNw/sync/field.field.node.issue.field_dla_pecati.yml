@@ -1,0 +1,27 @@
+uuid: 92230ae4-afe9-4f36-8d00-d0ec1d67ba0f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dla_pecati
+    - node.type.issue
+  module:
+    - file
+id: node.issue.field_dla_pecati
+field_name: field_dla_pecati
+entity_type: node
+bundle: issue
+label: 'Для печати'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

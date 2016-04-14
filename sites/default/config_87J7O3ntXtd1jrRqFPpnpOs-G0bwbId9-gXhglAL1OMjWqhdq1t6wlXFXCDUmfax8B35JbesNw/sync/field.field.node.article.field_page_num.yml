@@ -1,0 +1,25 @@
+uuid: be1199e0-6562-44c9-a000-0f365eddba77
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_num
+    - node.type.article
+id: node.article.field_page_num
+field_name: field_page_num
+entity_type: node
+bundle: article
+label: page_num
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 99
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

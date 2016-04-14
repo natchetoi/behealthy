@@ -1,14 +1,12 @@
-uuid: cca53d9e-fdf1-4c2d-bd02-2b8767dd8788
-name: 'Be healthy'
+uuid: 5b193cda-8008-4527-8d83-d2579ff9472e
+name: 'Журнал "Будь здоров!"'
 mail: nikolas.tatianenko@gmail.com
-slogan: ''
+slogan: 'Будь здоров!'
 page:
   403: ''
   404: ''
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
-default_langcode: en
-_core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+langcode: ru
+default_langcode: ru

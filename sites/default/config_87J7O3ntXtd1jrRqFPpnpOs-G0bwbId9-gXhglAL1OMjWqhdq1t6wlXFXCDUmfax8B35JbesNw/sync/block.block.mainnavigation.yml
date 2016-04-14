@@ -1,0 +1,29 @@
+uuid: d668cae6-b15f-4990-9068-4e90e7ffd428
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - zircon
+id: mainnavigation
+theme: zircon
+region: sidebar_first
+weight: -17
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Оглавление сайта'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "/forum\r\n/forum/*"
+    negate: true
+    context_mapping: {  }

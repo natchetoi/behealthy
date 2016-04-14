@@ -1,5 +1,5 @@
-uuid: 8e2eaacd-ea9d-4985-b41f-31126207185a
-langcode: en
+uuid: cafe4824-08e6-40b3-a7e5-073480409d86
+langcode: ru
 status: false
 dependencies:
   config:
@@ -7,8 +7,6 @@ dependencies:
   module:
     - node
     - user
-_core:
-  default_config_hash: '-pCFOVfbt__jaohFffTLnVavh4OBC6CjREAnchiRomQ'
 id: glossary
 label: Glossary
 module: node

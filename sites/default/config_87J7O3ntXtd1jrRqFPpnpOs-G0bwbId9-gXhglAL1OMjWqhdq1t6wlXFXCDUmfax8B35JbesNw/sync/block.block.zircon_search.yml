@@ -1,22 +1,20 @@
-uuid: ceb9d542-526b-4bb2-833b-594f9db93de6
+uuid: 6b43bade-ebde-4a84-a7e0-ff38a415095e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
   theme:
     - zircon
-_core:
-  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
 id: zircon_search
 theme: zircon
-region: sidebar_first
-weight: -1
+region: '-1'
+weight: -8
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Поиск
+  label: Search
   provider: search
   label_display: visible
 visibility: {  }

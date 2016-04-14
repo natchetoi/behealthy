@@ -1,0 +1,9 @@
+uuid: 984c0543-90a9-4c04-b062-9859b6d21382
+langcode: ru
+status: true
+dependencies: {  }
+name: Issues
+vid: vypuski
+description: 'Issues of the magazine'
+hierarchy: 0
+weight: 0

@@ -1,4 +1,4 @@
-uuid: a22e03a5-18e7-4bde-ad00-e470042eeee2
+uuid: e42e40ac-802f-4ee1-9b40-9511414dfe65
 langcode: en
 status: true
 dependencies:
@@ -8,19 +8,17 @@ dependencies:
     - system
   theme:
     - zircon
-_core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: zircon_main_menu
 theme: zircon
-region: primary_menu
-weight: 0
+region: main_menu
+weight: -8
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Основная навигация'
+  label: 'Main navigation'
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 0
 visibility: {  }

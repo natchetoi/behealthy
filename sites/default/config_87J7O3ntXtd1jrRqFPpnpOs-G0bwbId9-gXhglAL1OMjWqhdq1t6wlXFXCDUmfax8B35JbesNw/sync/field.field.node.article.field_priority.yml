@@ -1,0 +1,25 @@
+uuid: ad879190-64fa-406a-9700-b1236ff0f4c3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority
+    - node.type.article
+id: node.article.field_priority
+field_name: field_priority
+entity_type: node
+bundle: article
+label: Priority
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 50
+default_value_callback: ''
+settings:
+  min: 0
+  max: 99
+  prefix: ''
+  suffix: ''
+field_type: integer

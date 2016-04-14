@@ -1,13 +1,11 @@
-uuid: b5859559-90fb-4c17-ac00-0e74cf311c2e
-langcode: en
+uuid: f918f264-90ea-4925-aadd-fb579767fbd0
+langcode: ru
 status: true
 dependencies:
   module:
     - help
   theme:
     - seven
-_core:
-  default_config_hash: NU5A_49mwLHfs5xFzMFrZ850w9pgUolxMS9NNF3vv4c
 id: seven_help
 theme: seven
 region: help

@@ -1,0 +1,20 @@
+uuid: fdbbbcf7-1ec8-4284-bb03-3ac1f1aed998
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_taxonomy_term
+field_name: field_taxonomy_term
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
