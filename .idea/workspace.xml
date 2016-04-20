@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c77bc798-7337-47b8-bd89-f7d64e05a20e" name="Default" comment="" />
+    <ignored path="d8-bh3.dev.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="d8-bh3.dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="tagclouds_views.libraries.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/tagclouds_views.libraries.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="5" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="969">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-view-unformatted--slideshow.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/templates/views/views-view-unformatted--slideshow.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="22" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="561">
+              <folding>
+                <marker date="1460561594132" expanded="false" signature="88:177" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="178:1423" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="210:250" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="251:692" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="275:436" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="437:454" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="478:661" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="662:679" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="724:826" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="827:978" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="873:940" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="1029:1074" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="1075:1179" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="1113:1159" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="1232:1281" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="1282:1296" placeholder="..." />
+                <marker date="1460561594132" expanded="false" signature="1350:1399" placeholder="..." />
+                <marker date="1460561594132" expanded="true" signature="1400:1414" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_include.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/sass/includes/_include.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="-0.8227848" vertical-offset="275" max-vertical-offset="1445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/sass/html.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="10" selection-start="645" selection-end="645" vertical-scroll-proportion="-1.6078432" vertical-offset="547" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/css/responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="37" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="14331">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/css/page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="10353">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/css/html.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="2363">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/css/block.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-1.484375" vertical-offset="160" max-vertical-offset="21233">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/sass/block.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="16" selection-start="3473" selection-end="3473" vertical-scroll-proportion="-3.72549" vertical-offset="1986" max-vertical-offset="19958">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slideshow.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/zircon/css/slideshow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="32" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/templates/tagclound-views-styles.html.twig" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/tagclound_views.info.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/templates/tagclound_views.theme.inc" />
+        <option value="$PROJECT_DIR$/themes/zircon/zircon.libraries.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/js/tagclound_views.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/src/Plugin/views/style/TagCloud.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/tagclound_views.libraries.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/templates/tagcloud_views.theme.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/templates/tagclound-views-view-tagcloud.html.twig" />
+        <option value="$PROJECT_DIR$/core/modules/taxonomy/src/Tests/Views/TaxonomyTermViewTest.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/config/optional/view.view.tagclod_views.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/tagclouds_views.libraries.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/tagclouds_views.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/templates/tagclouds_views.theme.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/src/Plugin/views/style/TagClouds.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/config/optional/views.view.tags.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagcloud_views/tagclouds_views.info.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagclouds_views/src/Plugin/views/style/TagClouds.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagclouds_views/config/optional/views.view.tags.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/tagclouds_views.module" />
+        <option value="$PROJECT_DIR$/core/modules/views/src/Plugin/views/style/Rss.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/tagclouds_views/templates/tagclouds_views.theme.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/js/tagclouds_views.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/tagclouds_views.info.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/composer.json" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/Readme.txt" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/src/Plugin/views/style/TagClouds.php" />
+        <option value="$PROJECT_DIR$/core/modules/views/src/ViewExecutable.php" />
+        <option value="$PROJECT_DIR$/sites/default/settings.local.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/libraries/tagclouds_views.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/templates/tagclouds-views-view-tagcloud.html.twig" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/templates/tagclouds_views.theme.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/foobar/be_healthy_main.info.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/foobar.info.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/be_healthy_main.info.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/be_healthy_main.libraries.yml" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/css/be_healthy_main.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/be_healthy_main.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/tagclouds_views.libraries.yml" />
+        <option value="$PROJECT_DIR$/themes/zircon/css/slideshow.css" />
+        <option value="$PROJECT_DIR$/themes/zircon/templates/views/views-view-unformatted--slideshow.html.twig" />
+        <option value="$PROJECT_DIR$/themes/zircon/sass/includes/_include.scss" />
+        <option value="$PROJECT_DIR$/themes/zircon/css/responsive.css" />
+        <option value="$PROJECT_DIR$/themes/zircon/css/page.css" />
+        <option value="$PROJECT_DIR$/themes/zircon/css/html.css" />
+        <option value="$PROJECT_DIR$/themes/zircon/css/block.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="757" />
+    <option name="y" value="196" />
+    <option name="width" value="1152" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh3.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh3.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh3.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh3.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zircon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh3.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zircon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh3.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d8-bh.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zircon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="LayoutCode.rearrangeEntriesTwig" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
+    <property name="SearchEverywhereHistory" value="&#10;j" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\OpenServer\domains\d8-bh.dev\sites\all\modules\custom\be_healthy_main" />
+      <recent name="C:\work\OpenServer\domains\d8-bh.dev\sites\all\modules\custom\be_healthy_main\misc\image" />
+      <recent name="C:\work\OpenServer\domains\d8-bh3.dev\sites\all\modules\contrib\tagclouds_views" />
+      <recent name="C:\work\OpenServer\domains\d8-bh3.dev\sites\all\modules\contrib\tagclouds_views\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\OpenServer\domains\d8-bh.dev\sites\all\modules\custom\be_healthy_main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c77bc798-7337-47b8-bd89-f7d64e05a20e" name="Default" comment="" />
+      <created>1460018559564</created>
+      <updated>1460018559564</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="757" y="196" width="1152" height="720" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.98248684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36025408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/tagclouds/tagclouds.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="117" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/views/views.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13957" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/views/src/Plugin/views/style/Rss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="14" selection-start="615" selection-end="615" vertical-scroll-proportion="-0.65384614" vertical-offset="425" max-vertical-offset="2431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/libraries/jQuery.awesomeCloud/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/libraries/tx3/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/config/optional/views.view.tagclouds_views_view.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin_toolbar/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="0" selection-end="476" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/libraries/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="0" selection-end="441" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/tagclouds_views.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="13" selection-start="35" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/pathauto/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="249" selection-end="281" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/token/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/devel/webprofiler/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/behat/mink-browserkit-driver/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-22.692308" vertical-offset="192" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/behat/mink/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="111" selection-end="157" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="46" selection-start="172" selection-end="172" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/cache/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="905" selection-end="905" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/inflector/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/instantiator/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-14.846154" vertical-offset="243" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fabpot/goutte/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="0" selection-start="5740" selection-end="5740" vertical-scroll-proportion="-20.076923" vertical-offset="2181" max-vertical-offset="2805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/views/src/ViewEntityInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/views/src/ViewExecutable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="42126" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/views/src/EntityViewsDataInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/tagclouds_views.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/libraries/tagclouds_views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/src/Plugin/views/style/TagClouds.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="48" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0" vertical-offset="863" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/templates/tagclouds-views-view-tagcloud.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="411" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/templates/tagclouds_views.theme.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2669" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="297" selection-end="297" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Asset/AttachedAssets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/quickedit/quickedit.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/quickedit/quickedit.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="2686" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/history/history.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="0" selection-start="4045" selection-end="4045" vertical-scroll-proportion="0.0" vertical-offset="2210" max-vertical-offset="3400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/be_healthy_main.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/be_healthy_main.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/css/be_healthy_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="30" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/be_healthy_main/be_healthy_main.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/libraries/jQuery.awesomeCloud/readme.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.0" vertical-offset="1256" max-vertical-offset="14705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/tagclouds_views/tagclouds_views.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/css/slideshow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="32" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/templates/views/views-view-unformatted--slideshow.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="561">
+          <folding>
+            <marker date="1460561594132" expanded="false" signature="88:177" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="178:1423" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="210:250" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="251:692" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="275:436" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="437:454" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="478:661" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="662:679" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="724:826" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="827:978" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="873:940" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="1029:1074" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="1075:1179" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="1113:1159" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="1232:1281" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="1282:1296" placeholder="..." />
+            <marker date="1460561594132" expanded="false" signature="1350:1399" placeholder="..." />
+            <marker date="1460561594132" expanded="true" signature="1400:1414" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="37" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="14331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/sass/block.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="16" selection-start="3473" selection-end="3473" vertical-scroll-proportion="-3.72549" vertical-offset="1986" max-vertical-offset="19958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/sass/includes/_include.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="-0.8227848" vertical-offset="275" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/sass/html.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="10" selection-start="645" selection-end="645" vertical-scroll-proportion="-1.6078432" vertical-offset="547" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/css/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="10353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/css/html.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/zircon/css/block.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-1.484375" vertical-offset="160" max-vertical-offset="21233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
