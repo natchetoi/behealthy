@@ -1,0 +1,20 @@
+uuid: 5765e99e-a42a-4410-9801-ec796823ba9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vypuski
+  module:
+    - path
+id: taxonomy_term.vypuski.path
+field_name: path
+entity_type: taxonomy_term
+bundle: vypuski
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path
