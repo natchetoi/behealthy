@@ -718,6 +718,6 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  if (file_exists(__DIR__ . '/settings.local.php')) {
    include __DIR__ . '/settings.local.php';
  }
-
+// $config['system.logging']['error_level'] = 'verbose';
 $settings['install_profile'] = 'standard';
 $config_directories[CONFIG_SYNC_DIRECTORY] = 'sites/default/config_87J7O3ntXtd1jrRqFPpnpOs-G0bwbId9-gXhglAL1OMjWqhdq1t6wlXFXCDUmfax8B35JbesNw/sync';
