@@ -67,6 +67,18 @@ display:
             previous: ‹‹
             next: ››
       sorts:
+        field_page_num_value:
+          id: field_page_num_value
+          table: node__field_page_num
+          field: field_page_num_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: standard
         sticky:
           id: sticky
           table: taxonomy_index
@@ -301,6 +313,9 @@ display:
         options: {  }
       path: taxonomy/term/%
       display_extenders: {  }
+      menu:
+        enabled: true
+        expanded: false
     cache_metadata:
       contexts:
         - 'languages:language_interface'

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_image
+    - image.style.ads
     - node.type.ads
   module:
     - image

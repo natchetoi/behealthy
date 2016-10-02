@@ -1,11 +1,11 @@
 uuid: 5b193cda-8008-4527-8d83-d2579ff9472e
 name: 'Журнал "Будь здоров!"'
-mail: publisher.bhm@gmail.com
+mail: natchetoi@gmail.com
 slogan: 'Будь здоров!'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /taxonomy/term/65
 admin_compact_mode: false
 weight_select_max: 100
 langcode: ru

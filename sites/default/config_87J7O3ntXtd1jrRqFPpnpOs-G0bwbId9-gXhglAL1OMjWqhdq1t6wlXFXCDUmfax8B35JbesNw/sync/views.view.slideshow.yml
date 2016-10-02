@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_slideshow
+    - image.style.slideshow
     - node.type.article
   module:
     - image
