@@ -1,0 +1,25 @@
+uuid: fd1e40b8-0535-4dd9-9701-1cf8c5dc8e5a
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'
+  module:
+    - block_content
+  theme:
+    - newsplus
+id: headerimage
+theme: newsplus
+region: '-1'
+weight: -27
+provider: null
+plugin: 'block_content:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'
+settings:
+  id: 'block_content:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'
+  label: 'Header image'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
