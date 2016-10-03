@@ -1,0 +1,31 @@
+uuid: e0e595be-41f7-47e8-a200-a1452772b680
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1f8563d3-78b5-4052-8a03-0342fef91ae9'
+  module:
+    - block_content
+    - system
+  theme:
+    - newsplus
+id: staytunedwithuscontactpage
+theme: newsplus
+region: sidebar_second
+weight: -29
+provider: null
+plugin: 'block_content:1f8563d3-78b5-4052-8a03-0342fef91ae9'
+settings:
+  id: 'block_content:1f8563d3-78b5-4052-8a03-0342fef91ae9'
+  label: 'Stay tuned with us - Contact page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact*\r\n/node/33"
+    negate: false
+    context_mapping: {  }

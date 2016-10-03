@@ -1,0 +1,31 @@
+uuid: ac2b4ae8-6f08-484a-ad07-7f76e29e0cf4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:930d9c89-3f21-4b04-ae08-8f34efcaf91e'
+  module:
+    - block_content
+    - system
+  theme:
+    - newsplus
+id: staytunedwithus
+theme: newsplus
+region: footer_third
+weight: -21
+provider: null
+plugin: 'block_content:930d9c89-3f21-4b04-ae08-8f34efcaf91e'
+settings:
+  id: 'block_content:930d9c89-3f21-4b04-ae08-8f34efcaf91e'
+  label: 'Stay tuned with us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/29\r\n/node/30\r\n/node/40"
+    negate: true
+    context_mapping: {  }
