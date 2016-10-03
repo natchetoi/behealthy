@@ -1,17 +1,15 @@
 uuid: 8a3eba9c-a312-4f99-8113-1915f9c4ba69
-langcode: ru
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - newsplus
-_core:
-  default_config_hash: OfOpirVYmBwBizgv_mBKih4rIpraGf1cZornhCpDPIE
 id: newsplus_content
 theme: newsplus
 region: content
-weight: 0
+weight: -24
 provider: null
 plugin: system_main_block
 settings:

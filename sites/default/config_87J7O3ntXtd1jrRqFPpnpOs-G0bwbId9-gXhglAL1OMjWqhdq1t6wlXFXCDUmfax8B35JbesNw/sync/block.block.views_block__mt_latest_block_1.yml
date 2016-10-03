@@ -1,0 +1,24 @@
+uuid: ff193704-7c45-4307-8403-03524a11fc8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__mt_latest_block_1
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:mt_latest-block_1'
+settings:
+  id: 'views_block:mt_latest-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: ac69f188-98d0-4f1e-ad00-ba08e7c41653
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_tags_cloud
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_tags_cloud_block_1_2
+theme: newsplus
+region: footer_fourth
+weight: -27
+provider: null
+plugin: 'views_block:mt_tags_cloud-block_1'
+settings:
+  id: 'views_block:mt_tags_cloud-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/38
+    negate: false
+    context_mapping: {  }

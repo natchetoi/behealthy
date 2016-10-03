@@ -1,0 +1,20 @@
+uuid: 570b789b-79a5-42fe-a955-8519eecaecde
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - newsplus
+id: searchform_4
+theme: newsplus
+region: hidden_blocks_collection
+weight: -26
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form in dropdown'
+  provider: search
+  label_display: '0'
+visibility: {  }

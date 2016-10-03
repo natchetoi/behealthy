@@ -1,0 +1,31 @@
+uuid: 538d73c3-b6cb-4ea0-a805-5ed0ada5da54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_tabbed_blocks:3fa8eddb-98f7-4f9d-a402-2a4cfde055d5'
+  module:
+    - block_content
+    - system
+  theme:
+    - newsplus
+id: frontmaintabs
+theme: newsplus
+region: promoted
+weight: -30
+provider: null
+plugin: 'block_content:3fa8eddb-98f7-4f9d-a402-2a4cfde055d5'
+settings:
+  id: 'block_content:3fa8eddb-98f7-4f9d-a402-2a4cfde055d5'
+  label: 'Front main tabs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/23\r\n/node/36"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,24 @@
+uuid: 7f8f9164-a4e6-4ec4-a009-9e2d6892f3d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - views
+  theme:
+    - newsplus
+id: views_block__archive_block_1_3
+theme: newsplus
+region: hidden_blocks_collection
+weight: -27
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: Archive
+  provider: views
+  label_display: '0'
+  views_label: Archive
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: b3086169-6f72-46fa-9101-1dc44726afb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_hot_posts
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_hot_posts_block_1
+theme: newsplus
+region: highlighted
+weight: -13
+provider: null
+plugin: 'views_block:mt_hot_posts-block_1'
+settings:
+  id: 'views_block:mt_hot_posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/20\r\n/node/21\r\n/node/22\r\n/node/24\r\n/node/25\r\n/node/33\r\n/node/35"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: a232ba6d-62d4-41fd-a001-1f4f1faf2c3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_news_in_images
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_news_in_images_block_1
+theme: newsplus
+region: promoted
+weight: -14
+provider: null
+plugin: 'views_block:mt_news_in_images-block_1'
+settings:
+  id: 'views_block:mt_news_in_images-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/20\r\n/node/22\r\n/node/23\r\n/node/25\r\n/node/35\r\n/node/36"
+    negate: false
+    context_mapping: {  }

@@ -1,17 +1,16 @@
 uuid: 6831d4ff-59d4-4f00-a600-a28040c4598c
-langcode: ru
+langcode: en
 status: true
 dependencies:
   module:
     - search
+    - system
   theme:
     - newsplus
-_core:
-  default_config_hash: wgRUM9cefdxjECVBa_glsZ1hwrt5s65rJE27HCDP2yE
 id: newsplus_search
 theme: newsplus
 region: sidebar_second
-weight: -10
+weight: -23
 provider: null
 plugin: search_form_block
 settings:
@@ -19,4 +18,9 @@ settings:
   label: Search
   provider: search
   label_display: visible
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact*\r\n/node/27\r\n/node/44\r\n"
+    negate: true
+    context_mapping: {  }

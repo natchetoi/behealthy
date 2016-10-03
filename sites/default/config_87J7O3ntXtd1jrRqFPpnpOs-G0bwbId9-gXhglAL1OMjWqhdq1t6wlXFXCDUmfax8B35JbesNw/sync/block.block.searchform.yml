@@ -1,20 +1,26 @@
-uuid: 275535a1-8cfc-44bf-8898-be7d947f3763
+uuid: 84cf6d4d-ef0d-4560-b600-b15e1beb13b4
 langcode: en
 status: true
 dependencies:
   module:
     - search
+    - system
   theme:
-    - zircon
+    - newsplus
 id: searchform
-theme: zircon
-region: header
-weight: -16
+theme: newsplus
+region: footer_second
+weight: -28
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search form'
+  label: Search
   provider: search
-  label_display: '0'
-visibility: {  }
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/29
+    negate: false
+    context_mapping: {  }

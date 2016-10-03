@@ -1,0 +1,29 @@
+uuid: fef5438b-d117-4a96-8900-cbf345a7aff4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.subfooter-menu
+  module:
+    - system
+  theme:
+    - newsplus
+id: subfootermenu_3
+theme: newsplus
+region: footer
+weight: -18
+provider: null
+plugin: 'system_menu_block:subfooter-menu'
+settings:
+  id: 'system_menu_block:subfooter-menu'
+  label: 'Subfooter menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/39
+    negate: true
+    context_mapping: {  }

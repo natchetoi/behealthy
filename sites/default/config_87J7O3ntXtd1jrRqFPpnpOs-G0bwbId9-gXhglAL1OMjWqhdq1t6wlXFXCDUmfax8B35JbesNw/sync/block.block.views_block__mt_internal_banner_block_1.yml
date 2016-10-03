@@ -1,0 +1,24 @@
+uuid: 7a7156b8-ed82-4303-b000-d36a1771af4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_internal_banner
+  module:
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_internal_banner_block_1
+theme: newsplus
+region: page_intro
+weight: -13
+provider: null
+plugin: 'views_block:mt_internal_banner-block_1'
+settings:
+  id: 'views_block:mt_internal_banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

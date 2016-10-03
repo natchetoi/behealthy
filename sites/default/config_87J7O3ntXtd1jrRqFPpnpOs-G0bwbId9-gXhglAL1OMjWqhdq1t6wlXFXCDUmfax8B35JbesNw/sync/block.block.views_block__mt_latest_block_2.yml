@@ -1,0 +1,30 @@
+uuid: 045e0d1d-b62e-49a2-b85a-908a1c53294a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__mt_latest_block_2
+theme: bartik
+region: featured_top
+weight: -8
+provider: null
+plugin: 'views_block:mt_latest-block_2'
+settings:
+  id: 'views_block:mt_latest-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

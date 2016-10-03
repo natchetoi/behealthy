@@ -1,0 +1,30 @@
+uuid: 25be9b25-bcfc-4141-8e31-4925578b19d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_latest_block_1_3
+theme: newsplus
+region: footer_third
+weight: -20
+provider: null
+plugin: 'views_block:mt_latest-block_1'
+settings:
+  id: 'views_block:mt_latest-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/30
+    negate: false
+    context_mapping: {  }

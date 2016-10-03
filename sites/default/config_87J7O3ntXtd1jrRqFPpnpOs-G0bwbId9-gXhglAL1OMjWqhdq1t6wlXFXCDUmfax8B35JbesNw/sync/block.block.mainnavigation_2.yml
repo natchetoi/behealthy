@@ -1,0 +1,24 @@
+uuid: 01540453-feb9-491e-9e54-8413c968b83f
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - newsplus
+id: mainnavigation_2
+theme: newsplus
+region: '-1'
+weight: -25
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

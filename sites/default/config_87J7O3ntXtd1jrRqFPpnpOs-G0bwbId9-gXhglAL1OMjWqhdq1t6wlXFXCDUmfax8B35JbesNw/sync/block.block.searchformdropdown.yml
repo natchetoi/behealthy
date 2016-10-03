@@ -1,0 +1,25 @@
+uuid: 95932d8a-4bb6-4231-b108-08198e340831
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_dropdown_block:b399d911-f137-4d80-9f15-21f4ca230ba7'
+  module:
+    - block_content
+  theme:
+    - newsplus
+id: searchformdropdown
+theme: newsplus
+region: header
+weight: -26
+provider: null
+plugin: 'block_content:b399d911-f137-4d80-9f15-21f4ca230ba7'
+settings:
+  id: 'block_content:b399d911-f137-4d80-9f15-21f4ca230ba7'
+  label: 'Search form dropdown'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

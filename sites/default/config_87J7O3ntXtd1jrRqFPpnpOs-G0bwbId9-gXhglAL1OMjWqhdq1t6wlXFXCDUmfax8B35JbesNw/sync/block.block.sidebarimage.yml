@@ -1,0 +1,31 @@
+uuid: 7f29774d-2acf-49b3-854c-76ac65a59a92
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b29565d9-6660-41f4-ac06-6aee7a49b755'
+  module:
+    - block_content
+    - system
+  theme:
+    - newsplus
+id: sidebarimage
+theme: newsplus
+region: sidebar_second
+weight: -24
+provider: null
+plugin: 'block_content:b29565d9-6660-41f4-ac06-6aee7a49b755'
+settings:
+  id: 'block_content:b29565d9-6660-41f4-ac06-6aee7a49b755'
+  label: 'Sidebar image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/24\r\n/node/25"
+    negate: false
+    context_mapping: {  }

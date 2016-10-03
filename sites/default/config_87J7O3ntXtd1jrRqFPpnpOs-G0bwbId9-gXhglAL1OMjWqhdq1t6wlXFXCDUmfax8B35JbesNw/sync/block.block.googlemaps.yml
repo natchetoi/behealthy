@@ -1,0 +1,31 @@
+uuid: 17473ef0-094b-4b54-8a23-3541cfe6bea5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_google_maps:d4d63ea4-1758-4408-af00-f6b3681fc8ab'
+  module:
+    - block_content
+    - system
+  theme:
+    - newsplus
+id: googlemaps
+theme: newsplus
+region: banner
+weight: -13
+provider: null
+plugin: 'block_content:d4d63ea4-1758-4408-af00-f6b3681fc8ab'
+settings:
+  id: 'block_content:d4d63ea4-1758-4408-af00-f6b3681fc8ab'
+  label: 'Google Maps'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/contact*'
+    negate: false
+    context_mapping: {  }

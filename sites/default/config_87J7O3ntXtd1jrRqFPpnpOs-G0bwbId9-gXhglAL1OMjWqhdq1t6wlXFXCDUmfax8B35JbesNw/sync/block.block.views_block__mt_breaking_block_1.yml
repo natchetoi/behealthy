@@ -1,0 +1,30 @@
+uuid: 391f836d-1044-4830-9306-6fdd495539d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_breaking
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_breaking_block_1
+theme: newsplus
+region: top_content
+weight: -10
+provider: null
+plugin: 'views_block:mt_breaking-block_1'
+settings:
+  id: 'views_block:mt_breaking-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/21\r\n/node/22\r\n/node/25"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: 400d690d-5d17-45ba-8c00-d0d80733f74a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_flexslider_slideshow_boxed
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_flexslider_slideshow_boxed_block_1
+theme: newsplus
+region: banner
+weight: -13
+provider: null
+plugin: 'views_block:mt_flexslider_slideshow_boxed-block_1'
+settings:
+  id: 'views_block:mt_flexslider_slideshow_boxed-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/21\r\n/node/33\r\n/node/36"
+    negate: false
+    context_mapping: {  }

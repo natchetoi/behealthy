@@ -1,0 +1,30 @@
+uuid: 84206d3a-fe1b-4bf2-a41e-30e1e748d44c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_latest_block_1_2
+theme: newsplus
+region: sidebar_second
+weight: -26
+provider: null
+plugin: 'views_block:mt_latest-block_1'
+settings:
+  id: 'views_block:mt_latest-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact*\r\n/node/22\r\n/node/23\r\n/node/24\r\n/node/25\r\n/node/27\r\n/node/33\r\n/node/35\r\n/node/36\r\n/node/42\r\n/node/44"
+    negate: true
+    context_mapping: {  }

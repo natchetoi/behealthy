@@ -1,0 +1,30 @@
+uuid: b5babbca-98c3-40bd-b35e-94b0c2c25956
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_most_popular
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_most_popular_block_1
+theme: newsplus
+region: sidebar_second
+weight: -27
+provider: null
+plugin: 'views_block:mt_most_popular-block_1'
+settings:
+  id: 'views_block:mt_most_popular-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact*\r\n/node/24\r\n/node/25\r\n/node/27\r\n/node/44"
+    negate: true
+    context_mapping: {  }

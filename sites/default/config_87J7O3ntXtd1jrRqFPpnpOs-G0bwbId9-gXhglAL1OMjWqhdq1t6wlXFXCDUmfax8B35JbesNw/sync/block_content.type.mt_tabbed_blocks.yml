@@ -1,0 +1,8 @@
+uuid: 12b329ef-3361-461c-8642-66b2e985a3e9
+langcode: en
+status: true
+dependencies: {  }
+id: mt_tabbed_blocks
+label: 'Tabs block'
+revision: 0
+description: ''

@@ -1,0 +1,25 @@
+uuid: 024e4ccd-3734-4fa0-974f-7904b6a0a007
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:04e4af1c-1350-4c6b-9600-d54383dc5133'
+  module:
+    - block_content
+  theme:
+    - newsplus
+id: about
+theme: newsplus
+region: footer_first
+weight: -25
+provider: null
+plugin: 'block_content:04e4af1c-1350-4c6b-9600-d54383dc5133'
+settings:
+  id: 'block_content:04e4af1c-1350-4c6b-9600-d54383dc5133'
+  label: About
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

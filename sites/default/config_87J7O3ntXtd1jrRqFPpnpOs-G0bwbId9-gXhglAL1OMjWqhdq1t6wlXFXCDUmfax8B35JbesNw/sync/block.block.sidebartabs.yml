@@ -1,0 +1,31 @@
+uuid: 2736855c-e1e2-4916-9944-6843b5f25895
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_tabbed_blocks:9335cb65-3a2b-425e-a400-e317da3b5651'
+  module:
+    - block_content
+    - system
+  theme:
+    - newsplus
+id: sidebartabs
+theme: newsplus
+region: sidebar_second
+weight: -30
+provider: null
+plugin: 'block_content:9335cb65-3a2b-425e-a400-e317da3b5651'
+settings:
+  id: 'block_content:9335cb65-3a2b-425e-a400-e317da3b5651'
+  label: 'Sidebar tabs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact*\r\n/node/27\r\n/node/44"
+    negate: true
+    context_mapping: {  }

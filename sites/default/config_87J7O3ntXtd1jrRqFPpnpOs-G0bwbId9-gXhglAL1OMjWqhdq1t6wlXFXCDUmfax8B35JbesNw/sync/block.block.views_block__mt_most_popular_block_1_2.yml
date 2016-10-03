@@ -1,0 +1,30 @@
+uuid: 6b0f6379-e9ca-450b-a100-f914a63a6fc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_most_popular
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_most_popular_block_1_2
+theme: newsplus
+region: content
+weight: -30
+provider: null
+plugin: 'views_block:mt_most_popular-block_1'
+settings:
+  id: 'views_block:mt_most_popular-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/26
+    negate: false
+    context_mapping: {  }

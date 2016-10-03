@@ -1,17 +1,15 @@
 uuid: 5f4d11e1-4c3d-4a6b-ba00-a82ffd79e802
-langcode: ru
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - newsplus
-_core:
-  default_config_hash: pY011VIMnRRY0_jiuvKgtyfrXKWPfLjPQEoFCnhI4oY
 id: sitebranding
 theme: newsplus
 region: footer_first
-weight: -10
+weight: -26
 provider: null
 plugin: system_branding_block
 settings:
@@ -19,7 +17,7 @@ settings:
   label: 'Site branding'
   provider: system
   label_display: '0'
-  use_site_logo: false
+  use_site_logo: true
   use_site_name: true
   use_site_slogan: true
 visibility: {  }

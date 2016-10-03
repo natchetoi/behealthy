@@ -1,0 +1,30 @@
+uuid: ea03bd37-21c0-412f-9e00-b3aaefbb9a29
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - system
+    - views
+  theme:
+    - newsplus
+id: views_block__archive_block_1_2
+theme: newsplus
+region: footer_second
+weight: -29
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '20'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/29\r\n/node/37\r\n/node/40"
+    negate: true
+    context_mapping: {  }

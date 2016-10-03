@@ -1,0 +1,31 @@
+uuid: de78a5af-9f7d-4c04-b407-7ec0fb160fa5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f2dc8b2c-35c5-4182-b001-1a0fdf4e5e43'
+  module:
+    - block_content
+    - system
+  theme:
+    - newsplus
+id: subscribetoournewsletter_2
+theme: newsplus
+region: header_top_right
+weight: -24
+provider: null
+plugin: 'block_content:f2dc8b2c-35c5-4182-b001-1a0fdf4e5e43'
+settings:
+  id: 'block_content:f2dc8b2c-35c5-4182-b001-1a0fdf4e5e43'
+  label: 'Subscribe to our newsletter'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/31
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: bfe027d8-d232-4065-ac03-039208a659ee
+langcode: en
+status: true
+dependencies: {  }
+id: mt_dropdown_block
+label: 'Dropdown block'
+revision: 0
+description: ''

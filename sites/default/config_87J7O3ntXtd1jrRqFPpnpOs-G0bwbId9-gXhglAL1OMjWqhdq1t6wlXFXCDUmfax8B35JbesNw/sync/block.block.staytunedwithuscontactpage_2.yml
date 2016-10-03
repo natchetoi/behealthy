@@ -2,14 +2,17 @@ uuid: 63a9d5db-fd29-48cc-ad00-f274ce062927
 langcode: en
 status: true
 dependencies:
+  content:
+    - 'block_content:basic:1f8563d3-78b5-4052-8a03-0342fef91ae9'
   module:
+    - block_content
     - system
   theme:
     - newsplus
 id: staytunedwithuscontactpage_2
 theme: newsplus
 region: footer_third
-weight: -10
+weight: -27
 provider: null
 plugin: 'block_content:1f8563d3-78b5-4052-8a03-0342fef91ae9'
 settings:

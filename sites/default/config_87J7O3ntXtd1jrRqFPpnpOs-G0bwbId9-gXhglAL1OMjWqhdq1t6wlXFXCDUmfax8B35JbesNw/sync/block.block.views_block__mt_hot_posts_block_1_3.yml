@@ -1,0 +1,24 @@
+uuid: 9d593306-817d-4c92-8800-bc8de1e3a508
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_hot_posts
+  module:
+    - views
+  theme:
+    - newsplus
+id: views_block__mt_hot_posts_block_1_3
+theme: newsplus
+region: hidden_blocks_collection
+weight: -30
+provider: null
+plugin: 'views_block:mt_hot_posts-block_1'
+settings:
+  id: 'views_block:mt_hot_posts-block_1'
+  label: 'What''s Hot'
+  provider: views
+  label_display: '0'
+  views_label: 'What''s Hot'
+  items_per_page: none
+visibility: {  }
