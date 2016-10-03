@@ -1,0 +1,9 @@
+uuid: feda01c5-e1a9-4638-b807-7cf03ebf1108
+langcode: en
+status: true
+dependencies: {  }
+name: 'Post Categories'
+vid: mt_post_categories
+description: ''
+hierarchy: 0
+weight: 0

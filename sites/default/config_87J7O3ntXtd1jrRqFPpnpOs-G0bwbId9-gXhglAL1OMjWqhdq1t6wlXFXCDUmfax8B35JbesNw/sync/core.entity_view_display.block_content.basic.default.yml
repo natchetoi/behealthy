@@ -1,5 +1,5 @@
-uuid: 60bc48d6-213f-4671-bf04-7191458c6e9d
-langcode: ru
+uuid: 76e231c7-86a3-4ebb-8800-0d78ba684daf
+langcode: en
 status: true
 dependencies:
   config:
@@ -18,5 +18,4 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-hidden:
-  langcode: true
+hidden: {  }

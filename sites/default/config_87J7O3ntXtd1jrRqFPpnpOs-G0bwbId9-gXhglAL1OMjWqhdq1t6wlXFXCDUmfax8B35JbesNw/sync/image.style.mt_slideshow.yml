@@ -1,0 +1,14 @@
+uuid: 23e40d3d-814b-4348-9118-2409eba9f329
+langcode: en
+status: true
+dependencies: {  }
+name: mt_slideshow
+label: 'Slideshow (1170x610)'
+effects:
+  2366d81b-04e6-42f5-ac33-51029e882c54:
+    uuid: 2366d81b-04e6-42f5-ac33-51029e882c54
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1170
+      height: 610

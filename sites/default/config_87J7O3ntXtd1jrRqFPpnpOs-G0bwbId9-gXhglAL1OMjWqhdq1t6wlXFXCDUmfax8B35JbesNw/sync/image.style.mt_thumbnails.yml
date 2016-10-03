@@ -1,0 +1,14 @@
+uuid: eb3d0abc-4155-4511-b319-25a355557b95
+langcode: en
+status: true
+dependencies: {  }
+name: mt_thumbnails
+label: 'Thumbnails (230x153)'
+effects:
+  1e036579-c974-4ad3-ae22-345108071baa:
+    uuid: 1e036579-c974-4ad3-ae22-345108071baa
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 230
+      height: 153
