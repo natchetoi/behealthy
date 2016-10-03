@@ -1,0 +1,20 @@
+uuid: beddf76a-2313-49bb-ba8b-ae8dab59d829
+langcode: ru
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - newsplus
+id: languageswitcher_2
+theme: newsplus
+region: pre_header_right
+weight: -10
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }
