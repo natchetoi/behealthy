@@ -1,0 +1,27 @@
+uuid: b3505512-7d93-434f-9f00-e1f79e772603
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_post_categories
+    - node.type.mt_post
+    - taxonomy.vocabulary.mt_post_categories
+id: node.mt_post.field_mt_post_categories
+field_name: field_mt_post_categories
+entity_type: node
+bundle: mt_post
+label: 'Post Categories'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mt_post_categories: mt_post_categories
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

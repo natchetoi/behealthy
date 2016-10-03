@@ -1,0 +1,20 @@
+uuid: e6fe2771-6343-4911-b054-bc3d7e05c14d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_mt_google_plus
+  module:
+    - user
+id: user.user.field_mt_google_plus
+field_name: field_mt_google_plus
+entity_type: user
+bundle: user
+label: Google+
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

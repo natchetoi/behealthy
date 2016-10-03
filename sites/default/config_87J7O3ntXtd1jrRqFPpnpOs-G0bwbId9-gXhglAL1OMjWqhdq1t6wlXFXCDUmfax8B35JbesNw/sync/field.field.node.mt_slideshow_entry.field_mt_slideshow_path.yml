@@ -1,0 +1,19 @@
+uuid: 2a7d8462-cf8f-45f8-9617-23b04495208f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_slideshow_path
+    - node.type.mt_slideshow_entry
+id: node.mt_slideshow_entry.field_mt_slideshow_path
+field_name: field_mt_slideshow_path
+entity_type: node
+bundle: mt_slideshow_entry
+label: 'Slideshow entry path'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

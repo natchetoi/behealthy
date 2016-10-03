@@ -1,0 +1,22 @@
+uuid: 5d25bf92-e2fb-43a6-bc00-eb4338c9eb12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mt_post
+  module:
+    - text
+id: node.mt_post.body
+field_name: body
+entity_type: node
+bundle: mt_post
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

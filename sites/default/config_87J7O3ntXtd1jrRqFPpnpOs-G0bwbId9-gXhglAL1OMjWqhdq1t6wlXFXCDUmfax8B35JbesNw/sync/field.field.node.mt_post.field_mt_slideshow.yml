@@ -1,0 +1,23 @@
+uuid: 2267f43f-9b0c-4533-b900-b065bc9cc8ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_slideshow
+    - node.type.mt_post
+id: node.mt_post.field_mt_slideshow
+field_name: field_mt_slideshow
+entity_type: node
+bundle: mt_post
+label: 'Promote to front page slideshow'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

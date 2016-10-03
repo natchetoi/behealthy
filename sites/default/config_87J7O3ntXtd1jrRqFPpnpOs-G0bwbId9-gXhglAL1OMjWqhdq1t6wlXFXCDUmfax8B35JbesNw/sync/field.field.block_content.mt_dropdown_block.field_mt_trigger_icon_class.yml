@@ -1,0 +1,21 @@
+uuid: e77d8c28-a8ae-48e1-8e00-c1e82d64f14b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_dropdown_block
+    - field.storage.block_content.field_mt_trigger_icon_class
+id: block_content.mt_dropdown_block.field_mt_trigger_icon_class
+field_name: field_mt_trigger_icon_class
+entity_type: block_content
+bundle: mt_dropdown_block
+label: 'Trigger icon class'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'fa fa-caret-down'
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 4afe3969-d9d1-4bad-8200-c5b1708918d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_dropdown_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.mt_dropdown_block.body
+field_name: body
+entity_type: block_content
+bundle: mt_dropdown_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

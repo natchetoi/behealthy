@@ -1,0 +1,20 @@
+uuid: fc5d3741-4f15-467f-af90-ba42792f7c63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_mt_facebook
+  module:
+    - user
+id: user.user.field_mt_facebook
+field_name: field_mt_facebook
+entity_type: user
+bundle: user
+label: Facebook
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

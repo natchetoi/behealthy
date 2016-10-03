@@ -1,0 +1,18 @@
+uuid: 28e4412b-44c6-40cb-b000-f2f0be393e3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_mt_breaking
+field_name: field_mt_breaking
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
