@@ -1,8 +1,8 @@
-uuid: b033d6ce-0c2d-4920-a600-0a96295c4b11
+uuid: 6adcdb4f-700f-4b92-9ee4-bbfcf00daa72
 langcode: en
 status: true
 dependencies: {  }
 id: secondary-menu
-label: 'Secondary menu'
+label: 'Secondary Menu'
 description: ''
 locked: false

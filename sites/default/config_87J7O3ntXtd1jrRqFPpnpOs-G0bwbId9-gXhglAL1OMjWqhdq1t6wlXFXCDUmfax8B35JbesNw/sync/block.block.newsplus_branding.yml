@@ -1,11 +1,13 @@
 uuid: fd783487-40a6-4c75-b707-7f7a79e844a2
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
     - system
   theme:
     - newsplus
+_core:
+  default_config_hash: FiE7yaU4iepozi-9VS6LVjWFUIlEFdUcfCtbHVyMuzg
 id: newsplus_branding
 theme: newsplus
 region: header_top_left
@@ -20,9 +22,4 @@ settings:
   use_site_logo: true
   use_site_name: true
   use_site_slogan: true
-visibility:
-  request_path:
-    id: request_path
-    pages: "/node/26\r\n/node/35\r\n/node/36"
-    negate: true
-    context_mapping: {  }
+visibility: {  }

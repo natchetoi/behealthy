@@ -36,6 +36,7 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  superfish: 0
   system: 0
   tagclouds_views: 0
   taxonomy: 0
@@ -57,4 +58,5 @@ theme:
   seven: 0
   zircon: 0
   newsplus: 0
+  bartik: 0
 langcode: ru

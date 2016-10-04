@@ -1,0 +1,28 @@
+uuid: ac2af3b0-da66-4a3e-96cd-af604eb82fba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_staytunedwithus_2
+theme: bartik
+region: footer_first
+weight: -10
+provider: null
+plugin: 'block_content:930d9c89-3f21-4b04-ae08-8f34efcaf91e'
+settings:
+  id: 'block_content:930d9c89-3f21-4b04-ae08-8f34efcaf91e'
+  label: 'Stay tuned with us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/30
+    negate: false
+    context_mapping: {  }

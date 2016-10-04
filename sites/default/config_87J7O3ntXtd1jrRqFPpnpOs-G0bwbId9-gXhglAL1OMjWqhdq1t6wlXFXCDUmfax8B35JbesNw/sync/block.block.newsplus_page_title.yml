@@ -1,15 +1,15 @@
 uuid: 6ac590e5-2a18-4d3a-b500-a5a76f89fe6c
-langcode: en
+langcode: ru
 status: true
 dependencies:
-  module:
-    - system
   theme:
     - newsplus
+_core:
+  default_config_hash: uicBTSG4DYSQXswFBXTTbR83QLPfb_V5_05fdJlApNo
 id: newsplus_page_title
 theme: newsplus
 region: content
-weight: -27
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
@@ -17,9 +17,4 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility:
-  request_path:
-    id: request_path
-    pages: "/node/20\r\n/node/21\r\n/node/22\r\n/node/23\r\n/node/24\r\n/node/25\r\n/node/26\r\n/node/33\r\n/node/35\r\n/node/36"
-    negate: true
-    context_mapping: {  }
+visibility: {  }

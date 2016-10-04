@@ -1,0 +1,28 @@
+uuid: 0dc902f1-26a8-45de-b811-a782fc852eaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_staytunedwithuscontactpage
+theme: bartik
+region: sidebar_second
+weight: -10
+provider: null
+plugin: 'block_content:1f8563d3-78b5-4052-8a03-0342fef91ae9'
+settings:
+  id: 'block_content:1f8563d3-78b5-4052-8a03-0342fef91ae9'
+  label: 'Stay tuned with us - Contact page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact*\r\n/node/33"
+    negate: false
+    context_mapping: {  }

@@ -1,5 +1,5 @@
 uuid: 1a2f61e9-7435-4b1c-8300-ce603cb3b687
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -8,10 +8,12 @@ dependencies:
     - system
   theme:
     - newsplus
+_core:
+  default_config_hash: JWEHHs7s5XO0XVHwB4iFX7EChxKRUrOS9-m81mASOf8
 id: newsplus_tools
 theme: newsplus
 region: sidebar_second
-weight: -22
+weight: -9
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
@@ -21,9 +23,4 @@ settings:
   label_display: visible
   level: 1
   depth: 0
-visibility:
-  request_path:
-    id: request_path
-    pages: "/contact*\r\n/node/24\r\n/node/25\r\n/node/27\r\n/node/44"
-    negate: true
-    context_mapping: {  }
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 860507d2-6bd7-4182-84db-ade1db8ad6d9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_secondarymenu
+theme: bartik
+region: header
+weight: -10
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Secondary Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

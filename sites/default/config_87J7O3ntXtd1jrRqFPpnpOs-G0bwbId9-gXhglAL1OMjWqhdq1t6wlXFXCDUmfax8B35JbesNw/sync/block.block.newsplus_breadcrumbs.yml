@@ -1,15 +1,17 @@
 uuid: dce31d03-8534-432c-951d-294bf7278f3f
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
     - system
   theme:
     - newsplus
+_core:
+  default_config_hash: iT2Sre_QI-szMHRwqfB9DdZG8taOSohijZfIWfM3R3E
 id: newsplus_breadcrumbs
 theme: newsplus
-region: content
-weight: -28
+region: breadcrumb
+weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:
@@ -17,9 +19,4 @@ settings:
   label: Breadcrumbs
   provider: system
   label_display: '0'
-visibility:
-  request_path:
-    id: request_path
-    pages: "/node/21\r\n/node/22\r\n/node/23\r\n/node/24\r\n/node/25\r\n/node/26\r\n/node/20\r\n/node/33\r\n/node/35\r\n/node/36"
-    negate: true
-    context_mapping: {  }
+visibility: {  }

@@ -1,6 +1,6 @@
 uuid: d38cc464-a8bb-453c-9100-d1ef5607a085
-langcode: en
-status: false
+langcode: ru
+status: true
 dependencies:
   config:
     - system.menu.main
@@ -8,10 +8,12 @@ dependencies:
     - system
   theme:
     - newsplus
+_core:
+  default_config_hash: mKcnYe6AATIYknnfgHsIQ5gJxAAQb1RE1AoNX2HJOLo
 id: newsplus_main_menu
 theme: newsplus
-region: '-1'
-weight: -24
+region: navigation
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:

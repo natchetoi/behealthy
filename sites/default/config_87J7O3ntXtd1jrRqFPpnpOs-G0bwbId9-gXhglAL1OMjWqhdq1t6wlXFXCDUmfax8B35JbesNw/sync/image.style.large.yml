@@ -1,14 +1,15 @@
-uuid: e19b99b9-bbd8-4680-a747-71a249a43be5
-langcode: en
+uuid: 87eae8b2-6400-41c8-ad06-e7871bca57a3
+langcode: ru
 status: true
 dependencies: {  }
 name: large
-label: 'Large (750×499)'
+label: 'Large (480×480)'
 effects:
-  79009f73-8ee2-4335-9b53-833457f42812:
-    uuid: 79009f73-8ee2-4335-9b53-833457f42812
-    id: image_scale_and_crop
-    weight: 2
+  ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d:
+    uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d
+    id: image_scale
+    weight: 0
     data:
-      width: 750
-      height: 499
+      width: 480
+      height: 480
+      upscale: false

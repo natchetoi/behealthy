@@ -1,0 +1,28 @@
+uuid: 5e72f78c-f25e-4a4a-8c01-4f197e68573f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_headerimage_2
+theme: bartik
+region: header
+weight: -28
+provider: null
+plugin: 'block_content:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'
+settings:
+  id: 'block_content:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'
+  label: 'Header image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/26\r\n/node/31\r\n/node/32\r\n/node/41\r\n/node/36\r\n/node/35"
+    negate: true
+    context_mapping: {  }

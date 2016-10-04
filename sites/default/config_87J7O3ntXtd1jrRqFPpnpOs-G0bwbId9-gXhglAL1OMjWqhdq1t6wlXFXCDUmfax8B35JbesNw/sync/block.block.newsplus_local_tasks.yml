@@ -1,13 +1,15 @@
 uuid: fee1166c-91f9-4cde-9223-35d2ed10ca49
-langcode: en
+langcode: ru
 status: true
 dependencies:
   theme:
     - newsplus
+_core:
+  default_config_hash: 6WOdwmuppTA3eAaUI2rkX0HCC_QWIt2FjwRTiOhpByI
 id: newsplus_local_tasks
 theme: newsplus
 region: content
-weight: -25
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:
