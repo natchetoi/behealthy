@@ -11,7 +11,7 @@ dependencies:
 id: headerimage
 theme: newsplus
 region: '-1'
-weight: -27
+weight: -31
 provider: null
 plugin: 'block_content:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'
 settings:

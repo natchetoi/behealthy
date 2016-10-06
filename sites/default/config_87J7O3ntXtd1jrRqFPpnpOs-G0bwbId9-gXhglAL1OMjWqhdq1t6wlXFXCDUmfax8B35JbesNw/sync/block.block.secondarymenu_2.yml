@@ -1,6 +1,6 @@
 uuid: d6d7de5c-7480-49a0-9e00-cbf4047ee56c
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.secondary-menu
@@ -11,8 +11,8 @@ dependencies:
     - newsplus
 id: secondarymenu_2
 theme: newsplus
-region: pre_header_left
-weight: -11
+region: '-1'
+weight: -24
 provider: null
 plugin: 'superfish:secondary-menu'
 settings:

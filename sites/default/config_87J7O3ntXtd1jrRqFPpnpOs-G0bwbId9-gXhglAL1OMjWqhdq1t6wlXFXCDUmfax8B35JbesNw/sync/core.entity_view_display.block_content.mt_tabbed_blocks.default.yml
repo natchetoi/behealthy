@@ -18,4 +18,5 @@ content:
       view_mode: default
     third_party_settings: {  }
     type: entity_reference_entity_view
-hidden: {  }
+hidden:
+  langcode: true

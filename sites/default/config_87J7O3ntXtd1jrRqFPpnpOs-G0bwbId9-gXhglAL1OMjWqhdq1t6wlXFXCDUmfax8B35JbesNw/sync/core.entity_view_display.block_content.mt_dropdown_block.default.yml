@@ -30,3 +30,4 @@ content:
     type: entity_reference_entity_view
 hidden:
   field_mt_trigger_icon_class: true
+  langcode: true

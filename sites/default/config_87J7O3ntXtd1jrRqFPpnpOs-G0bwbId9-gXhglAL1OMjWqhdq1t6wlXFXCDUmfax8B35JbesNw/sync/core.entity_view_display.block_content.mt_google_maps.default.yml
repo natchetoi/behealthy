@@ -22,3 +22,4 @@ content:
 hidden:
   field_mt_longitude: true
   field_mt_map_zoom: true
+  langcode: true

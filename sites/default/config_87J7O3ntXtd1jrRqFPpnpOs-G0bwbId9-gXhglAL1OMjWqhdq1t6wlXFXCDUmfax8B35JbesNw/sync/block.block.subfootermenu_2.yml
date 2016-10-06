@@ -11,7 +11,7 @@ dependencies:
 id: subfootermenu_2
 theme: newsplus
 region: '-1'
-weight: -22
+weight: -26
 provider: null
 plugin: 'superfish:subfooter-menu'
 settings:
