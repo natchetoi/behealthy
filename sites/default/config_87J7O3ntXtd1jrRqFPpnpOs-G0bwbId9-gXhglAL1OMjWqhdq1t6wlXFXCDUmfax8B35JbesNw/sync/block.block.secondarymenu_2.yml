@@ -1,76 +1,24 @@
-uuid: d6d7de5c-7480-49a0-9e00-cbf4047ee56c
-langcode: en
+uuid: 41c1247a-74bd-4fe1-a0a6-2c6033a475ec
+langcode: ru
 status: true
 dependencies:
   config:
     - system.menu.secondary-menu
   module:
-    - superfish
     - system
   theme:
     - newsplus
 id: secondarymenu_2
 theme: newsplus
-region: pre_header_left
-weight: -11
+region: footer
+weight: -31
 provider: null
-plugin: 'superfish:secondary-menu'
+plugin: 'system_menu_block:secondary-menu'
 settings:
-  id: 'superfish:secondary-menu'
-  label: 'Secondary menu'
-  provider: superfish
+  id: 'system_menu_block:secondary-menu'
+  label: 'Secondary Menu'
+  provider: system
   label_display: '0'
-  level: '1'
-  depth: '0'
-  menu_type: horizontal
-  style: none
-  arrow: 0
-  shadow: 0
-  speed: fast
-  delay: '800'
-  slide: vertical
-  supposition: 1
-  hoverintent: 1
-  touch: '0'
-  touchbh: '2'
-  touchbp: '768'
-  touchua: '0'
-  touchual: ''
-  touchuam: '0'
-  small: '2'
-  smallbp: '768'
-  smallua: '0'
-  smallual: ''
-  smalluam: '0'
-  smallact: '1'
-  smallset: ''
-  smallasa: 0
-  smallcmc: 0
-  smallecm: ''
-  smallchc: 0
-  smallech: ''
-  smallicm: ''
-  smallich: ''
-  smallamt: '<i class="fa fa-bars fa-2x pull-right"><span class="sr-only">Main menu</span></i>'
-  smallabt: '1'
-  supersubs: 1
-  minwidth: '12'
-  maxwidth: '27'
-  multicolumn: 0
-  multicolumn_depth: '1'
-  multicolumn_levels: '1'
-  pathlevels: '1'
-  expanded: 0
-  clone_parent: 0
-  hide_linkdescription: 0
-  add_linkdescription: 0
-  link_depth_class: 1
-  custom_list_class: ''
-  custom_item_class: ''
-  custom_link_class: ''
-visibility:
-  request_path:
-    id: request_path
-    pages: "/node/26\r\n/node/35\r\n/node/36\r\n/node/32"
-    negate: true
-    context_mapping: {  }
+  level: 1
+  depth: 0
+visibility: {  }

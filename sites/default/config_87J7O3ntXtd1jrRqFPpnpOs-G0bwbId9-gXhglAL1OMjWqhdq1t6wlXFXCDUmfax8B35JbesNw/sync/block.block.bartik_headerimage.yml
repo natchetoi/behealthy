@@ -2,11 +2,15 @@ uuid: 5930e2f3-1d83-476c-9079-d2023b60749a
 langcode: en
 status: false
 dependencies:
+  content:
+    - 'block_content:basic:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'
+  module:
+    - block_content
   theme:
     - bartik
 id: bartik_headerimage
 theme: bartik
-region: header
+region: '-1'
 weight: -27
 provider: null
 plugin: 'block_content:0aaf55e2-207f-4394-9d08-8aee2bac2ccb'

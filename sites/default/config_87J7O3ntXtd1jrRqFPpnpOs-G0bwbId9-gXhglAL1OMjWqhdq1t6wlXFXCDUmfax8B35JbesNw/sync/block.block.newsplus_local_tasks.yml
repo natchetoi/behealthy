@@ -9,7 +9,7 @@ _core:
 id: newsplus_local_tasks
 theme: newsplus
 region: content
-weight: -7
+weight: -25
 provider: null
 plugin: local_tasks_block
 settings:

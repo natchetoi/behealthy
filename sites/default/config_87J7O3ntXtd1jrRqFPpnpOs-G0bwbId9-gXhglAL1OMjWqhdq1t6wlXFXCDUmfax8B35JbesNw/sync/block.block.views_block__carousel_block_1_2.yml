@@ -1,0 +1,24 @@
+uuid: 478bd4f5-814c-4664-bc89-1a3c5e6b633a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.carousel
+  module:
+    - views
+  theme:
+    - newsplus
+id: views_block__carousel_block_1_2
+theme: newsplus
+region: content
+weight: -23
+provider: null
+plugin: 'views_block:carousel-block_1'
+settings:
+  id: 'views_block:carousel-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

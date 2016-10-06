@@ -11,7 +11,7 @@ _core:
 id: newsplus_content
 theme: newsplus
 region: content
-weight: 0
+weight: -24
 provider: null
 plugin: system_main_block
 settings:

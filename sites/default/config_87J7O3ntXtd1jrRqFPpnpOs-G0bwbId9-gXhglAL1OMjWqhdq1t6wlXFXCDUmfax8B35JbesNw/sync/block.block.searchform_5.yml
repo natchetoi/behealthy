@@ -10,7 +10,7 @@ dependencies:
 id: searchform_5
 theme: newsplus
 region: content
-weight: -23
+weight: -30
 provider: null
 plugin: search_form_block
 settings:

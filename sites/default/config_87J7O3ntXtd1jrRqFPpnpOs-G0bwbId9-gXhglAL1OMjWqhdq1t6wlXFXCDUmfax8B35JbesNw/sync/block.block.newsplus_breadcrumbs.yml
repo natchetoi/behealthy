@@ -1,6 +1,6 @@
 uuid: dce31d03-8534-432c-951d-294bf7278f3f
 langcode: ru
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: iT2Sre_QI-szMHRwqfB9DdZG8taOSohijZfIWfM3R3E
 id: newsplus_breadcrumbs
 theme: newsplus
-region: breadcrumb
+region: '-1'
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

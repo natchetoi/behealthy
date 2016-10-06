@@ -2,10 +2,7 @@ uuid: fbc8c3c2-943c-4bd5-9bd8-085c7cdb5afb
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:basic:c82e69b4-25d3-45c2-91f3-d79ae05ab8cc'
   module:
-    - block_content
     - system
   theme:
     - zircon
