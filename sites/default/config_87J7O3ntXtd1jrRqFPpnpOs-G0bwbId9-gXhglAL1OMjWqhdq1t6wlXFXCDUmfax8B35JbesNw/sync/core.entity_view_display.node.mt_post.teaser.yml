@@ -1,0 +1,55 @@
+uuid: 6ed08cc7-79d5-4a77-ab28-405453310c2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mt_post.body
+    - field.field.node.mt_post.comment
+    - field.field.node.mt_post.field_image
+    - field.field.node.mt_post.field_mt_banner_image
+    - field.field.node.mt_post.field_mt_breaking
+    - field.field.node.mt_post.field_mt_post_categories
+    - field.field.node.mt_post.field_mt_slideshow
+    - field.field.node.mt_post.field_mt_slideshow_image
+    - field.field.node.mt_post.field_mt_subheader_body
+    - field.field.node.mt_post.field_tags
+    - image.style.medium
+    - node.type.mt_post
+  module:
+    - image
+    - text
+    - user
+id: node.mt_post.teaser
+targetEntityType: node
+bundle: mt_post
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: content
+    third_party_settings: {  }
+  links:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment: true
+  field_mt_banner_image: true
+  field_mt_breaking: true
+  field_mt_post_categories: true
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_subheader_body: true
+  field_tags: true

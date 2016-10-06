@@ -1,0 +1,23 @@
+uuid: b34510ad-2da6-4a76-8d06-6bb3d911f86d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mt_slideshow_entry.field_mt_slideshow
+    - field.field.node.mt_slideshow_entry.field_mt_slideshow_image
+    - field.field.node.mt_slideshow_entry.field_mt_slideshow_path
+    - node.type.mt_slideshow_entry
+  module:
+    - user
+id: node.mt_slideshow_entry.teaser
+targetEntityType: node
+bundle: mt_slideshow_entry
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_slideshow_path: true

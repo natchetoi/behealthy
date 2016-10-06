@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.article.field_page_num
     - field.field.node.article.field_priority
     - field.field.node.article.field_slideshow
+    - field.field.node.article.field_mt_banner_image
     - field.field.node.article.field_tags
     - image.style.medium
     - node.type.article
@@ -50,5 +51,6 @@ hidden:
   field_page_num: true
   field_priority: true
   field_slideshow: true
+  field_mt_banner_image: true
   field_tags: true
   langcode: true
