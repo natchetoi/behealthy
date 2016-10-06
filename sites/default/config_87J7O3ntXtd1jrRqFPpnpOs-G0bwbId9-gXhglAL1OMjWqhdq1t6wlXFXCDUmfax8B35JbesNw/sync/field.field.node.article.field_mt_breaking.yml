@@ -1,0 +1,23 @@
+uuid: f8169739-e458-459e-b7d0-afbc80ab5162
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_breaking
+    - node.type.article
+id: node.article.field_mt_breaking
+field_name: field_mt_breaking
+entity_type: node
+bundle: article
+label: 'Add to Breaking news'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

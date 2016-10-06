@@ -8,6 +8,8 @@ dependencies:
     - field.field.node.article.field_category
     - field.field.node.article.field_image
     - field.field.node.article.field_issue_id1
+    - field.field.node.article.field_mt_banner_image
+    - field.field.node.article.field_mt_breaking
     - field.field.node.article.field_page_num
     - field.field.node.article.field_priority
     - field.field.node.article.field_slideshow
@@ -45,6 +47,15 @@ content:
       image_link: ''
     third_party_settings: {  }
     label: hidden
+  field_mt_breaking:
+    weight: 5
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
   field_tags:
     type: entity_reference_entity_view
     weight: 2
@@ -60,6 +71,7 @@ content:
 hidden:
   field_category: true
   field_issue_id1: true
+  field_mt_banner_image: true
   field_page_num: true
   field_priority: true
   field_slideshow: true
