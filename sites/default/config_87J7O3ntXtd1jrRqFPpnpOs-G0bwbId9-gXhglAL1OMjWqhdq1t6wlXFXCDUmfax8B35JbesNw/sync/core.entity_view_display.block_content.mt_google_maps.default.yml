@@ -1,0 +1,24 @@
+uuid: c1fed66c-ca04-4158-9700-f7d9db7f2705
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_google_maps
+    - field.field.block_content.mt_google_maps.field_mt_latitude
+    - field.field.block_content.mt_google_maps.field_mt_longitude
+    - field.field.block_content.mt_google_maps.field_mt_map_zoom
+id: block_content.mt_google_maps.default
+targetEntityType: block_content
+bundle: mt_google_maps
+mode: default
+content:
+  field_mt_latitude:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  field_mt_longitude: true
+  field_mt_map_zoom: true

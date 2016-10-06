@@ -1,0 +1,28 @@
+uuid: 5864ec9e-27ce-4576-a800-a5284b5cc132
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_tabbed_blocks
+    - field.field.block_content.mt_tabbed_blocks.field_mt_block_reference
+id: block_content.mt_tabbed_blocks.default
+targetEntityType: block_content
+bundle: mt_tabbed_blocks
+mode: default
+content:
+  field_mt_block_reference:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  info:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

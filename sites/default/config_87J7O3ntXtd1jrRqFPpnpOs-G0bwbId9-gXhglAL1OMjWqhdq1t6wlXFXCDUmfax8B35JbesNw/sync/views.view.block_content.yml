@@ -1,5 +1,5 @@
-uuid: 39846960-9223-475c-bdf9-159beed738d1
-langcode: ru
+uuid: 3f3bb43d-f86e-4264-a200-fecba3440f2a
+langcode: en
 status: true
 dependencies:
   module:
@@ -393,7 +393,7 @@ display:
           plugin_id: string
         type:
           id: type
-          table: block_content
+          table: block_content_field_data
           field: type
           relationship: none
           group_type: group
@@ -487,8 +487,6 @@ display:
         weight: 0
         context: '0'
         menu_name: admin
-        enabled: true
-        expanded: false
     cache_metadata:
       contexts:
         - 'languages:language_content'

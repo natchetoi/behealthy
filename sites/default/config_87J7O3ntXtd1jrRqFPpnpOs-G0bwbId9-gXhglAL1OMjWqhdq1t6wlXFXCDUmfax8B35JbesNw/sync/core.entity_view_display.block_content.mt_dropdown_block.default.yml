@@ -1,0 +1,32 @@
+uuid: ae4fa3bd-3ef5-48a1-8300-edebda5d2160
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_dropdown_block
+    - field.field.block_content.mt_dropdown_block.body
+    - field.field.block_content.mt_dropdown_block.field_mt_dropdown_block
+    - field.field.block_content.mt_dropdown_block.field_mt_trigger_icon_class
+  module:
+    - text
+id: block_content.mt_dropdown_block.default
+targetEntityType: block_content
+bundle: mt_dropdown_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_mt_dropdown_block:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+hidden:
+  field_mt_trigger_icon_class: true

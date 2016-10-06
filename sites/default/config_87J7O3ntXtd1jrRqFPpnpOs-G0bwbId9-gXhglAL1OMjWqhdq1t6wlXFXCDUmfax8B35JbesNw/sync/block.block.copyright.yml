@@ -1,21 +1,31 @@
-uuid: f604b5d8-ddb9-405c-bf5e-241f2a3c0967
+uuid: 39fa5c6a-70b2-4d2b-9b05-5ae5d77814bf
 langcode: en
-status: false
+status: true
 dependencies:
+  content:
+    - 'block_content:basic:9640250f-c8b2-45e6-953e-624318df6c34'
+  module:
+    - block_content
+    - system
   theme:
-    - zircon
+    - newsplus
 id: copyright
-theme: zircon
-region: '-1'
+theme: newsplus
+region: sub_footer_left
 weight: -15
 provider: null
-plugin: 'block_content:f4a95e0c-7480-4afc-80ac-32401a16dcba'
+plugin: 'block_content:9640250f-c8b2-45e6-953e-624318df6c34'
 settings:
-  id: 'block_content:f4a95e0c-7480-4afc-80ac-32401a16dcba'
+  id: 'block_content:9640250f-c8b2-45e6-953e-624318df6c34'
   label: Copyright
   provider: block_content
   label_display: '0'
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/39
+    negate: true
+    context_mapping: {  }
