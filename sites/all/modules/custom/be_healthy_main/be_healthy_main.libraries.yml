@@ -4,3 +4,5 @@ be_healthy_main:
   css:
     component:
       css/be_healthy_main.css: {}
+  js:
+    js/carousel.js
