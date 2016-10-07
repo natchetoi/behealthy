@@ -48,6 +48,7 @@ hidden:
   comment: true
   field_category: true
   field_issue_id1: true
+  field_mt_breaking: true
   field_page_num: true
   field_priority: true
   field_slideshow: true
