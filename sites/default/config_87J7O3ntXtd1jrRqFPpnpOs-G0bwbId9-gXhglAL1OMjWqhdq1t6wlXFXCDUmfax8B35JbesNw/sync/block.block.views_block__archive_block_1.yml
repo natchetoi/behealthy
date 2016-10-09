@@ -12,7 +12,7 @@ dependencies:
 id: views_block__archive_block_1
 theme: newsplus
 region: sidebar_second
-weight: -25
+weight: -29
 provider: null
 plugin: 'views_block:archive-block_1'
 settings:

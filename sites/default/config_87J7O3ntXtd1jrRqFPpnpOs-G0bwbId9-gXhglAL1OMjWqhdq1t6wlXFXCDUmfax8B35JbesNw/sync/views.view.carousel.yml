@@ -10,6 +10,7 @@ dependencies:
     - datetime
     - image
     - node
+    - slick_views
     - user
 id: carousel
 label: Carousel
@@ -56,7 +57,43 @@ display:
         options:
           offset: 0
       style:
-        type: default
+        type: slick
+        options:
+          vanilla: false
+          optionset: default
+          skin: fullwidth
+          layout: ''
+          caption:
+            field_oblozka: '0'
+          optionset_thumbnail: ''
+          skin_thumbnail: ''
+          thumbnail_position: ''
+          thumbnail_caption: ''
+          grid_header: ''
+          grid: 1
+          grid_medium: 1
+          grid_small: 3
+          visible_items: 4
+          preserve_keys: false
+          image: ''
+          thumbnail: field_oblozka
+          overlay: ''
+          title: ''
+          link: ''
+          class: ''
+          id: ''
+          override: false
+          overridables:
+            arrows: '0'
+            autoplay: '0'
+            dots: '0'
+            draggable: '0'
+            infinite: '0'
+            mouseWheel: '0'
+            randomize: '0'
+            variableWidth: '0'
+          cache: 0
+          current_view_mode: block_1
       row:
         type: fields
       fields:
@@ -176,45 +213,6 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-        field_oblozka_target_id:
-          id: field_oblozka_target_id
-          table: node__field_oblozka
-          field: field_oblozka_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: 'not empty'
-          value:
-            min: ''
-            max: ''
-            value: ''
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          plugin_id: numeric
       sorts:
         field_data_publikacii_value:
           id: field_data_publikacii_value

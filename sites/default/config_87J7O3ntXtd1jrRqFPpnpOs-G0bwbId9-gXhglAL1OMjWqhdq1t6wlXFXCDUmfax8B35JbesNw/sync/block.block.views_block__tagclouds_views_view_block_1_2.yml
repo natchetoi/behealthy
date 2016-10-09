@@ -1,0 +1,24 @@
+uuid: 5dfe679a-173c-4712-b07a-50e33a45ee23
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.tagclouds_views_view
+  module:
+    - views
+  theme:
+    - newsplus
+id: views_block__tagclouds_views_view_block_1_2
+theme: newsplus
+region: sidebar_second
+weight: -25
+provider: null
+plugin: 'views_block:tagclouds_views_view-block_1'
+settings:
+  id: 'views_block:tagclouds_views_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

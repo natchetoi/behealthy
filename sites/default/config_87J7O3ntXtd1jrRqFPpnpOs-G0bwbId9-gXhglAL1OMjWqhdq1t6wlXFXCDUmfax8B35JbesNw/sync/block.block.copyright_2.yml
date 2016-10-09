@@ -7,7 +7,7 @@ dependencies:
 id: copyright_2
 theme: newsplus
 region: sub_footer_left
-weight: -31
+weight: -30
 provider: null
 plugin: 'block_content:f4a95e0c-7480-4afc-80ac-32401a16dcba'
 settings:

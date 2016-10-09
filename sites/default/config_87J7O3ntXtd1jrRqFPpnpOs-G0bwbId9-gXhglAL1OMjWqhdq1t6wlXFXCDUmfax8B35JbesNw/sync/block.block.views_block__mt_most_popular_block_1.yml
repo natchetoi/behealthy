@@ -12,7 +12,7 @@ dependencies:
 id: views_block__mt_most_popular_block_1
 theme: newsplus
 region: sidebar_second
-weight: -27
+weight: -31
 provider: null
 plugin: 'views_block:mt_most_popular-block_1'
 settings:

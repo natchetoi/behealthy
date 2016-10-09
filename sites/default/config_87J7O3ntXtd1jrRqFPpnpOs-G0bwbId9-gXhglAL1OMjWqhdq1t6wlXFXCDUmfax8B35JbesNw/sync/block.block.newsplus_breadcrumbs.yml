@@ -11,7 +11,7 @@ _core:
 id: newsplus_breadcrumbs
 theme: newsplus
 region: '-1'
-weight: -32
+weight: -30
 provider: null
 plugin: system_breadcrumb_block
 settings:

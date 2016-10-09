@@ -35,13 +35,13 @@ content:
   comment:
     label: above
     type: comment_default
-    weight: 3
+    weight: 4
     settings:
       pager_id: 0
     third_party_settings: {  }
   field_image:
     type: image
-    weight: 0
+    weight: 2
     settings:
       image_style: large
       image_link: ''
@@ -58,14 +58,14 @@ content:
     type: boolean
   field_tags:
     type: entity_reference_entity_view
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
   links:
-    weight: 4
+    weight: 0
     settings: {  }
     third_party_settings: {  }
 hidden:

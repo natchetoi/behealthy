@@ -1,0 +1,24 @@
+uuid: 25c68adc-2e81-439c-94b4-5c1cead06194
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.category
+  module:
+    - system
+  theme:
+    - newsplus
+id: category_2
+theme: newsplus
+region: '-1'
+weight: -35
+provider: null
+plugin: 'system_menu_block:category'
+settings:
+  id: 'system_menu_block:category'
+  label: Category
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

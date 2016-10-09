@@ -12,7 +12,7 @@ dependencies:
 id: sidebartabs
 theme: newsplus
 region: sidebar_second
-weight: -30
+weight: -33
 provider: null
 plugin: 'block_content:9335cb65-3a2b-425e-a400-e317da3b5651'
 settings:

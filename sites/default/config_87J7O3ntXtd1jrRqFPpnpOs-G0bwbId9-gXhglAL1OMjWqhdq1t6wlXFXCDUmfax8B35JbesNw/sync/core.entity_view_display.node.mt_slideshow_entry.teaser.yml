@@ -21,3 +21,4 @@ hidden:
   field_mt_slideshow: true
   field_mt_slideshow_image: true
   field_mt_slideshow_path: true
+  langcode: true

@@ -12,7 +12,7 @@ dependencies:
 id: subscribetoournewsletter
 theme: newsplus
 region: sidebar_second
-weight: -28
+weight: -32
 provider: null
 plugin: 'block_content:f2dc8b2c-35c5-4182-b001-1a0fdf4e5e43'
 settings:
