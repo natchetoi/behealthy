@@ -1,3 +1,9 @@
+/*Teaser*/
+.node--view-mode-teaser  .teaser-image-wrapper{
+	float:right;
+}
+
+/*block language*/
 .block-language {
     float: right;
 }
