@@ -1,0 +1,3 @@
+be_healthy_main.articles.current_release:
+  title: Current Release
+  route_name: be_healthy_main.articles.current_release

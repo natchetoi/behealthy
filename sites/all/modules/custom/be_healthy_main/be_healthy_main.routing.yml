@@ -1,0 +1,6 @@
+# Curren release
+be_healthy_main.articles.current_release:
+  path: 'current_release'
+  defaults:
+    _controller: '\Drupal\be_healthy_main\Controller\CurrentRelease::page'
+    _title: 'Current Release'
