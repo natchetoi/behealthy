@@ -10,7 +10,7 @@ dependencies:
     - newsplus
 id: about
 theme: newsplus
-region: footer_first
+region: '-1'
 weight: -25
 provider: null
 plugin: 'block_content:04e4af1c-1350-4c6b-9600-d54383dc5133'

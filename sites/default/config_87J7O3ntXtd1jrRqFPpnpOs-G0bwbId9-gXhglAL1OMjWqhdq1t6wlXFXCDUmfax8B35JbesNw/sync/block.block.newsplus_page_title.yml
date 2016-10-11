@@ -22,6 +22,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "node/*\r\ntaxonomy/term/*"
-    negate: true
+    pages: '<front>'
+    negate: false
     context_mapping: {  }
