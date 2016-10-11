@@ -12,7 +12,7 @@ dependencies:
 id: secondarymenu_2
 theme: newsplus
 region: '-1'
-weight: -24
+weight: -25
 provider: null
 plugin: 'superfish:secondary-menu'
 settings:

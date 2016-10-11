@@ -11,7 +11,7 @@ dependencies:
 id: views_block__archive_block_1_3
 theme: newsplus
 region: hidden_blocks_collection
-weight: -27
+weight: -33
 provider: null
 plugin: 'views_block:archive-block_1'
 settings:

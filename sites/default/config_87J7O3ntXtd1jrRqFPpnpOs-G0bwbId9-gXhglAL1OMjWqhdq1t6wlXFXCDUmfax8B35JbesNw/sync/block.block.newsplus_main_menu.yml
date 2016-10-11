@@ -13,7 +13,7 @@ _core:
 id: newsplus_main_menu
 theme: newsplus
 region: '-1'
-weight: -23
+weight: -29
 provider: null
 plugin: 'system_menu_block:main'
 settings:

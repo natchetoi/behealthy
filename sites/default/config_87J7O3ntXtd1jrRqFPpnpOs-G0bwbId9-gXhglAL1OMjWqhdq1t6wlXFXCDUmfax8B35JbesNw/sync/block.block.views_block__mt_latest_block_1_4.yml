@@ -11,7 +11,7 @@ dependencies:
 id: views_block__mt_latest_block_1_4
 theme: newsplus
 region: hidden_blocks_collection
-weight: -25
+weight: -31
 provider: null
 plugin: 'views_block:mt_latest-block_1'
 settings:

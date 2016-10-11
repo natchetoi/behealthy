@@ -1,6 +1,6 @@
 uuid: 25c68adc-2e81-439c-94b4-5c1cead06194
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.category
@@ -10,8 +10,8 @@ dependencies:
     - newsplus
 id: category_2
 theme: newsplus
-region: '-1'
-weight: -35
+region: hidden_blocks_collection
+weight: -30
 provider: null
 plugin: 'system_menu_block:category'
 settings:

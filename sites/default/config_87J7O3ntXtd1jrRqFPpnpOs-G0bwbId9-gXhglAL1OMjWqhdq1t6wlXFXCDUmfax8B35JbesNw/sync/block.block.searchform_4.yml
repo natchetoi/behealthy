@@ -9,7 +9,7 @@ dependencies:
 id: searchform_4
 theme: newsplus
 region: hidden_blocks_collection
-weight: -26
+weight: -32
 provider: null
 plugin: search_form_block
 settings:
