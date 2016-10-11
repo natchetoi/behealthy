@@ -23,4 +23,58 @@ definitions:
     parent: ''
     expanded: false
     weight: 0
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__11':
+    weight: -50
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    enabled: true
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__18':
+    weight: -48
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__16':
+    weight: -49
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__14':
+    weight: -43
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__15':
+    weight: -42
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__17':
+    weight: -47
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__69':
+    weight: -46
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__13':
+    weight: -45
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__categories__68':
+    weight: -44
+    parent: 'menu_link_content:da41093e-bfa4-45dd-b30a-3e06fd4ce9cd'
+    menu_name: main
+    expanded: false
+    enabled: true
 langcode: ru

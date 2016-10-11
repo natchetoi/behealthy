@@ -59,20 +59,20 @@ display:
       style:
         type: slick
         options:
-          vanilla: false
+          vanilla: true
           optionset: default
-          skin: fullwidth
+          skin: default
           layout: ''
           caption:
             field_oblozka: '0'
-          optionset_thumbnail: ''
+          optionset_thumbnail: default
           skin_thumbnail: ''
           thumbnail_position: ''
           thumbnail_caption: ''
           grid_header: ''
-          grid: 1
-          grid_medium: 1
-          grid_small: 3
+          grid: 4
+          grid_medium: 4
+          grid_small: null
           visible_items: 4
           preserve_keys: false
           image: ''

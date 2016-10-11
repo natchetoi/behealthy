@@ -5,7 +5,7 @@ slogan: 'Будь здоров!'
 page:
   403: ''
   404: ''
-  front: /taxonomy/term/65
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: ru

@@ -1,6 +1,6 @@
 uuid: e6a7f8b9-0ab6-410a-974c-7696ab28dc4f
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.archive
@@ -11,7 +11,7 @@ dependencies:
     - newsplus
 id: views_block__archive_block_1
 theme: newsplus
-region: sidebar_second
+region: '-1'
 weight: -29
 provider: null
 plugin: 'views_block:archive-block_1'

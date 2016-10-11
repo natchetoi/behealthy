@@ -1,0 +1,13 @@
+uuid: e8ae5ad3-d878-4e63-9a59-30f382ddb101
+langcode: ru
+status: true
+dependencies: {  }
+id: mysql
+label: mysql
+type: MySQL
+config:
+  host: ''
+  database: behealthy_db
+  username: root
+  password: '123'
+  port: ''
